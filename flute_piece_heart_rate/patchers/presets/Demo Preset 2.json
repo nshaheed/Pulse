@@ -1,0 +1,169 @@
+{
+	"pattrstorage" : 	{
+		"name" : "77_GS_pattr",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "A",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 100.0 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 20000.0 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 0.0 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 37.992912 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 72.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 4.72441 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ 29.133858 ],
+					"Selection_End" : [ 19904.478516 ],
+					"Selection_End2" : [ 2818.770752 ],
+					"Selection_Start" : [ 17993.666016 ],
+					"Selection_Start2" : [ 308.916656 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ 11.023623 ],
+					"Window_Shape" : [ 1.0 ],
+					"SampleMenu1" : [ "Cymbaltone.wav" ],
+					"SampleMenu2" : [ "Gitarknirk.wav" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "B",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 47.244095 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 20000.0 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 0.0 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 10.577774 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ 29.133858 ],
+					"Selection_End" : [ 19904.478516 ],
+					"Selection_End2" : [ 2818.770752 ],
+					"Selection_Start" : [ 17993.666016 ],
+					"Selection_Start2" : [ 308.916656 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ 11.023623 ],
+					"Window_Shape" : [ 1.0 ],
+					"SampleMenu1" : [ "Cymbaltone.wav" ],
+					"SampleMenu2" : [ "Gitarknirk.wav" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "C",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 25.984251 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 20000.0 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 0.0 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 45.156311 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 256.0, 704.0 ],
+					"Phase_Skew" : [ 16.590551 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 1.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ -1.0 ],
+					"Selection_End" : [ 4726.479004 ],
+					"Selection_End2" : [ 3942.449219 ],
+					"Selection_Start" : [ 3174.3125 ],
+					"Selection_Start2" : [ 3916.41748 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ 7.874017 ],
+					"Window_Shape" : [ 1.0 ],
+					"SampleMenu1" : [ "Cymbaltone.wav" ],
+					"SampleMenu2" : [ "Gitarknirk.wav" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "D",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 47.244095 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 20000.0 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 0.0 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 10.577774 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ 29.133858 ],
+					"Selection_End" : [ 19904.478516 ],
+					"Selection_End2" : [ 2818.770752 ],
+					"Selection_Start" : [ 17993.666016 ],
+					"Selection_Start2" : [ 308.916656 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ 11.023623 ],
+					"Window_Shape" : [ 1.0 ],
+					"SampleMenu1" : [ "Cymbaltone.wav" ],
+					"SampleMenu2" : [ "Gitarknirk.wav" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,169 @@
+{
+	"pattrstorage" : 	{
+		"name" : "77_GS_pattr",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "A",
+				"data" : 				{
+					"Attack" : [ 454.545455 ],
+					"Crossfade" : [ 72.393701 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 333.333333 ],
+					"Filter_Cutoff" : [ 88.746491 ],
+					"Filter_Envelope" : [ 29.133858 ],
+					"Filter_Release" : [ 464.646465 ],
+					"Filter_Resonance" : [ 92.125984 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 1.0 ],
+					"Grain_Transpose" : [ 3.0 ],
+					"MIDI_Mode" : [ 1.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 1.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ 43.307087 ],
+					"Selection_End" : [ 23351.791667 ],
+					"Selection_End2" : [ 55838.029143 ],
+					"Selection_Start" : [ 21415.541667 ],
+					"Selection_Start2" : [ 51239.956421 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ -27.559055 ],
+					"Window_Shape" : [ 0.0 ],
+					"SampleMenu1" : [ "cello.wav" ],
+					"SampleMenu2" : [ "cello.wav" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "B",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 47.244095 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 20000.0 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 0.0 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 10.577774 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1161.616211 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ 29.133858 ],
+					"Selection_End" : [ 19904.478516 ],
+					"Selection_End2" : [ 44905.783867 ],
+					"Selection_Start" : [ 17993.666016 ],
+					"Selection_Start2" : [ 42215.080826 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ 11.023623 ],
+					"Window_Shape" : [ 1.0 ],
+					"SampleMenu1" : [ "cello.wav" ],
+					"SampleMenu2" : [ "cello.wav" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "C",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 47.244095 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 1553.07019 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 20.472441 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 1 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 1 ],
+					"Grain_Rate" : [ 10.577774 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 100.0 ],
+					"Release" : [ 1060.606079 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 0.0 ],
+					"Rnd_Position" : [ 0.0 ],
+					"Scrub_Speed" : [ -2.362205 ],
+					"Selection_End" : [ 19946.396484 ],
+					"Selection_End2" : [ 2818.770752 ],
+					"Selection_Start" : [ 17493.25 ],
+					"Selection_Start2" : [ 308.916656 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ -40.944881 ],
+					"Window_Shape" : [ 0.0 ],
+					"SampleMenu1" : [ "cello.wav" ],
+					"SampleMenu2" : [ "cello.wav" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "D",
+				"data" : 				{
+					"Attack" : [ 333.333344 ],
+					"Crossfade" : [ 78.740158 ],
+					"Decay" : [ 121.21212 ],
+					"Filter_Attack" : [ 20.202021 ],
+					"Filter_Cutoff" : [ 6828.265625 ],
+					"Filter_Envelope" : [ 0.0 ],
+					"Filter_Release" : [ 141.414139 ],
+					"Filter_Resonance" : [ 20.472441 ],
+					"Grain_A" : [ 1 ],
+					"Grain_B" : [ 0 ],
+					"Grain_C" : [ 1 ],
+					"Grain_D" : [ 0 ],
+					"Grain_Rate" : [ 1.472414 ],
+					"Grain_Transpose" : [ 0.0 ],
+					"MIDI_Mode" : [ 0.0 ],
+					"Natural_Pitch" : [ 60.0 ],
+					"Panner" : [ 0.0, 1000.0 ],
+					"Phase_Skew" : [ 79.732285 ],
+					"Release" : [ 1060.606079 ],
+					"Resync" : [ 0.0 ],
+					"Rnd_Pitch" : [ 8.661417 ],
+					"Rnd_Position" : [ 83.464569 ],
+					"Scrub_Speed" : [ -2.362205 ],
+					"Selection_End" : [ 26562.478516 ],
+					"Selection_End2" : [ 5420.208496 ],
+					"Selection_Start" : [ 0.0 ],
+					"Selection_Start2" : [ 0.0 ],
+					"Sustain" : [ 100.0 ],
+					"Window_Narrow" : [ -40.944881 ],
+					"Window_Shape" : [ 0.0 ],
+					"SampleMenu1" : [ "cello.wav" ],
+					"SampleMenu2" : [ "cello.wav" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
