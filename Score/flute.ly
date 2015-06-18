@@ -40,49 +40,51 @@ fluteTwo =
     % Permit first bar number to be printed
     %\bar ""
     
-    g8\staccato\p r r2 | R2.*6 | g4\staccato-+ r2
+    g8\staccato\p r r2 | R2. | g4\staccato-+ r2
     
-    \time 4/4 R1*4 |
-    \time 2/4 c2-> |
-    \time 4/4 R1 * 4 |
-    \time 3/4 c8\staccato r r2 | R2.*4
-    
-    \time 4/4 \aqfer1 R1 * 3 | aqf'1 | R1 * 2 | 
+    \time 4/4 R1   |
+    \time 4/4 c1-> |
+    \time 3/4 R2.  | c8\staccato r r2 | 
+    \time 4/4 \aqfer1 
+    \time 2/4 R2 | 
+    \time 4/4 aqf'1 | 
     \time 3/4 r2 g,8\staccato r8 | 
-    \time 4/4 R1 * 2 | <g c aqf'>1~\<_\gcaqfOrig | <g c aqf'>\!\> | 
+    \time 3/4 R2. | 
+    \time 4/4 <g c aqf'>1~\<_\gcaqfOrig | <g c aqf'>\!\> | 
     \time 2/4 R2\! | 
-    \time 5/4 <g c aqf'>1\<_\gcaqfOrig \breathe <<\dlowf8 s8\f\staccato-+>> r8\! | 
-    \time 3/4 R2. * 6 | 
-    \time 4/4 <<\gcaqf1 s1--\p>> | R1 * 2 | 
-    \time 5/4 <d\harmonic d d'>4-- r1 |
-    \time 4/4 R1 | \appoggiatura f'8 \aaqs2. r4 | 
-    \time 3/4 R2. * 2 | 
-    \time 4/4 \appoggiatura f8 \aaqs2. r8 d8-- | d,-> r r4 r2 | R1 | \gcaqf2 r2 | R1 | 
-    \time 3/4 f'4 \aaqs4.. d'16-^ | R2. * 2 | \gcaqf4 \vibrato #'(0.5 2.5) #1 d2:32~\<\startTrillSpan | 
-    \time 4/4 d8. <d, f>16->\!_\dlowfOrig\stopTrillSpan \tuplet 3/4 {r4 d'8->\mf} r4 |
-      R1 | 
-    \time 3/4 \tuplet 3/4 {d,,8 r4} <d' f>4~_\dlowfOrig | <d f>4 <d f>8. d'16-> \gcaqf4 | 
-    \time 5/4 R1*5/4 | 
-    \time 4/4 \vibrato #'(0.5 2.5) #1 <d,,\harmonic d d'>2.:32\startTrillSpan d'16->\stopTrillSpan r16 r8 |
-      R1 | \vibrato #'(0.5 2.5) #1 <d,\harmonic d d'>2.:32\startTrillSpan d'16->\stopTrillSpan r16 r8 |
-      R1
-    \time 3/4 \aaqs2. | R2. | 
+    \time 5/4 << {<g c aqf'>1\<_\gcaqfOrig} {s1\breathe} >> <<\dlowf8 s8\f\staccato-+>> r8 | 
+      R1*5/4 |
+    \time 3/4 <d\harmonic d d'>4--\p \appoggiatura f'8 \aaqs2 |
+    \time 5/4 <d,\harmonic d d'>4--\p \appoggiatura f'8 <a, aqs'>2_\aaqsOrig~ <a aqs'>8 d8 d, r |
     
-      \once \set crescendoText = \markup { \italic { cresc. poco a poco } }
-      \once \set crescendoSpanner = #'text
-      \once \override DynamicTextSpanner.style = #'dotted-line
-      \vibrato #'(0.5 2.5) #1 <a aqs'>2.:32\startTrillSpan\< |
-      R2.\stopTrillSpan | 
-    \time 4/4 <d,\harmonic d d'>4\staccato <a' aqs'>2.:32
-    \time 2/4 R2 | \time 4/4 <d,\harmonic d d'>4\staccato <a' aqs'>2.:32 \time 2/4 R2
+    \time 3/4 f'4 \aaqs4.. d'16-^ | 
+    \time 4/4 \gcaqf2 \vibrato #'(0.5 2.5) #1 d2:32~\<\startTrillSpan | 
+    \time 4/4 d8. <d, f>16->\!_\dlowfOrig\stopTrillSpan \tuplet 3/4 {r4 d'8->\mf} r4 |
+      
+    \time 3/4 \tuplet 3/4 {d,,8 r4} <d' f>4~_\dlowfOrig | <d f>4 <d f>8. d'16-> \gcaqf4 | 
+    \time 5/4 r4 \gcaqf2. r4 |
+    
+    \once \set crescendoText = \markup { \italic { cresc. poco a poco } }
+    \once \set crescendoSpanner = #'text
+    \once \override DynamicTextSpanner.style = #'dotted-line
+      
+    \time 4/4 \vibrato #'(0.5 2.5) #1 <d,,\harmonic d d'>2.:32\startTrillSpan\< d'16->\stopTrillSpan r16 r8 |
+      \vibrato #'(0.5 2.5) #1 <d,\harmonic d d'>2.:32\startTrillSpan d'16->\stopTrillSpan r16 r8 |
+      <a aqs'>4_\aaqsOrig \vibrato #'(0.5 2.5) #1 <a aqs'>2.:32\startTrillSpan |
+      
+    \time 4/4 <d,\harmonic d d'>4\staccato\stopTrillSpan <a' aqs'>2.:32
+    
     \time 3/4 d8 d' r16 \aqfer8 r16 r4 | af16 g gf f r4 r16 \aqfer8 r16 | 
-    \time 4/4 <d,,\harmonic d d'>2:32 d''16-^ r16 r8 r4 | <a, aqs'>1~\fp\<_\aaqsOrig | <a aqs'>1
-    \time 3/4 d'16-^\ff r r8 r2 |
-    \textLengthOn
-    \time 4/4 <<R1 * 7 s4^"(Enter extreme meditative state)">> | cqs1~_\cqserr\p-+ | cqs4 r4 r2 | 
-    \time 3/4 r2 b,4--
-    \time 5/4 R1*5/4 * 5
-    \time 4/4 cqs'1~ | cqs4 r4 r2 | r2 e,4.-- r8 | R1 * 5 | <g, c aqf'>1_\gcaqfOrig~ | <g c aqf'>1~ | <g c aqf'>1
+      <d,\harmonic d d'>2:32 d''16-^ r16 r8 | 
+    \time 4/4 <a, aqs'>1~\fp\<_\aaqsOrig | <a aqs'>1
+    \time 3/4 d'16-^\ff r r8 r2 | R2. * 2 |
+    
+    \time 4/4 cqs1~_\cqserr\p-+ | 
+    \time 5/4 cqs4 r4 b,4 r2 | 
+    
+    \time 4/4 cqs'1~ | cqs4 r8 b,8--~ b4 r | 
+      << {<g c aqf'>1_\gcaqfOrig~} {s1\<}>> | << {<g c aqf'>1~ } {s2 s2\>} >> | 
+      << {<g c aqf'>1} {s2. s4\!\breathe} >>
       R1 |
     \time 3/4 b4.( cqs'8_\cqserr~ cqs4) | R2. * 10
     \time 4/4 cqs1~ | <cs, cqs'>1_\cscqsOrig | \tuplet 3/2 {c,4-- c-- c--} c-- c-- | r8 c8-- c2.-- | 
@@ -154,7 +156,7 @@ fluteTwo =
 % }
 % \markup {"The squiggly lines above some notes indicate the intensity of the flutter (flutter is tremolo markings)"}
 
-% {\new Staff \with { \consists "Page_turn_engraver"}
-% 
-%   \fluteTwo
-% }
+{\new Staff \with { \consists "Page_turn_engraver"}
+
+  \fluteTwo
+}
