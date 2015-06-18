@@ -1,0 +1,24 @@
+Click track not being sent through the interface:
+- fixed, A/B button was not depressed
+
+Super fast heart beat on movements 1 and 2:
+- fixed, The heatbeat encapsulation was using had been reworked to
+   use the tempo object - which takes bpm's - but it was still receiving the
+   ms output from hrmi_reader, causing it to set tempos in the 600s-700s (though 
+   tempo caps out at around 250-300)
+
+Heart beat cutting out during performance,
+- can't reproduce, I think it was an issue of the heart beat getting too high 
+   combined with the the ms/bpm switch that was going on.
+
+Proper measure switching support for movement 2:
+-
+
+Turn of torch when switching movements
+- Even if it's going back to 1 again, reset it.
+- Fixed, when reset was sent to p measureSwitcher, it was not hitting uzistart to 
+   actually starting the process of iterating through all of the lines of the
+   counterTorch file up until the desired measure (aka 0 time)
+
+Add click track with downbeat
+- 

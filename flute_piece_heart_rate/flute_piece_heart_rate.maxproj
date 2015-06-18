@@ -2,8 +2,8 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3504211104,
-	"viewrect" : [ 77.0, 106.0, 300.0, 500.0 ],
+	"modificationdate" : 3512545632,
+	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -60,11 +60,32 @@
 				"kind" : "patcher"
 			}
 ,
-			"waterdropslow3.maxpat" : 			{
-				"kind" : "patcher"
+			"waterdropslow-poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
-			"waterdropslow-poly.maxpat" : 			{
+			"waterdropslow3-poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"waterdropslow4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"counterAdj.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"volAdJ.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"waterdropslow3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -103,7 +124,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Nicholas/Audio stuff/Flute Heart Rate Piece",
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
 					"projectrelativepath" : ".."
 				}
 
@@ -113,7 +134,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Nicholas/Audio stuff/Flute Heart Rate Piece",
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
 					"projectrelativepath" : ".."
 				}
 
@@ -123,7 +144,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/Nicholas/Audio stuff/Flute Heart Rate Piece",
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
 					"projectrelativepath" : ".."
 				}
 
@@ -139,14 +160,40 @@
 
 			}
 ,
-			"waterdropslow3-poly.maxpat" : 			{
+			"heartbeat_simulator.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/Nicholas/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
+			}
+,
+			"subdivisionTest.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mvmt1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mvmt3.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"steam_slow.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Pulse.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"mvmt2stripper.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"counterMvmtParserTest.maxpat" : 			{
+				"kind" : "patcher"
 			}
 
 		}
@@ -181,10 +228,35 @@
 				}
 
 			}
+,
+			"waterdrop2.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
+,
+			"Synth_Whoosh.aiff" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
 
 		}
 ,
 		"code" : 		{
+			"superCounter.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"running-average.js" : 			{
 				"kind" : "javascript"
 			}
@@ -195,6 +267,41 @@
 			"splash preset.json" : 			{
 				"kind" : "json",
 				"local" : 1
+			}
+,
+			"grooveInfo.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"counterTorch.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"counterTorchGlitch.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"testCounter.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"counterValues.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"counterMvmt2.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/data",
+					"projectrelativepath" : "./data"
+				}
+
 			}
 
 		}

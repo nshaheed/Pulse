@@ -1,0 +1,160 @@
+\time 4/4 R4
+     R4
+     R4
+     R4
+     \oneOne \oneTwo \oneThree \oneFour 
+     \oneOne \oneTwo \oneThree \oneFour 
+\time 2/4  \oneOne \oneTwo 
+\time 4/4  \oneOne \twoTwo \oneThree \oneFour 
+\time 3/4  \oneOne \oneTwo \oneThree 
+\time 4/4  \twoOne \twoTwo \oneThree \oneThree
+     \oneOne \oneTwo \oneThree \twoFour 
+\time 2/4  \oneOne \oneTwo 
+\time 3/4  \twoOne \twoTwo \twoThree 
+\time 4/4  \oneOne \oneTwo \oneThree \oneFour 
+     \oneOne \oneTwo \oneThree \oneFour
+     \twoOne \oneTwo \twoThree \twoFour
+     \twoOne \twoTwo \twoThree \twoFour
+     \oneOne \oneTwo \oneThree \oneFour
+     \twoOne \oneTwo \twoThree \twoFour
+\time 3/4  \oneOne \twoTwo \twoThree 
+\time 4/4  \oneOne \oneTwo \oneThree \oneFour
+     \oneOne \oneTwo \oneThree \twoFour
+     \oneOne \oneTwo \oneThree \oneFour
+     \oneOne \oneTwo \oneThree \oneFour
+     \twoOne \twoTwo \twoThree \twoFour
+     \oneOne \oneTwo \oneThree \twoFour 
+     \twoOne \twoTwo \twoThree \oneFour
+\time 3/4  \oneOne \oneTwo \oneThree 
+     \twoOne \twoTwo \oneThree 
+\time 4/4  \oneOne \oneTwo \twoThree \oneFour
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour
+     \twoOne \twoTwo \twoThree \oneFour
+     \twoOne \twoTwo \twoThree \oneFour
+     \oneOne \oneTwo \oneThree \oneFour
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \oneThree \oneFour
+     \twoOne \twoTwo \twoThree \twoFour 
+\time 2/4  \twoOne \twoTwo 
+\time 3/4  \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+\time 2/4  \twoOne \twoTwo 
+\time 4/4  \twoOne \twoTwo \twoThree \twoFour 
+\time 3/4  \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+\time 2/4  \twoOne \twoTwo 
+\time 3/4  \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+\time 4/4  \twoOne \twoTwo \twoThree \twoThree 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+     \twoOne \twoTwo \twoThree \twoFour 
+\time 3/4  \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+\time 4/4  \twoOne \twoTwo \twoThree \twoFour 
+\time 3/4  \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+     \twoOne \twoTwo \twoThree 
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
+      R3
