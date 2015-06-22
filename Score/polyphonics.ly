@@ -22,6 +22,7 @@ addDur = #(define-scheme-function (parser location m) (ly:music?)
 %            )
 % 
 voicing = \addDur < g a c e a > % dom7, with 7th in bass
+padVal  = 2
 
 %% In other flute, both quarter tone scales are labled as "closed-hole flute
 %%   scales, look into, it might be switched around
@@ -30,9 +31,9 @@ aqfOOrig = \markup {
   \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
   \woodwind-diagram #'flute #'((cc . (one two three five))
                               (lh . (b gis ))
-                              (rh . (dis ees)))
+                              (rh . (dis ees)))    
   }
-  
+  \vspace #padVal
 }
 aqfOp = \absolute {aqf''_\aqfOOrig}
 aqfO = \addDur \aqfOp
@@ -44,6 +45,7 @@ aqfCOrig = \markup {
                               (lh . (b gis ))
                               (rh . (ees)))
   }
+  \vspace #padVal
 }
 aqfCp = \absolute {aqf''_\aqfCOrig}
 aqfC = \addDur \aqfCp
@@ -55,9 +57,9 @@ cqsOOrig = \markup {
   \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
   \woodwind-diagram #'flute #'((cc . ())
                               (lh . (b))
-                              (rh . (ees)))
+                              (rh . (ees)))   
   }
-  
+  \vspace #padVal 
 }
 cqsOp = \absolute {cqs'''_\cqsOOrig}
 cqsO = \addDur \cqsOp
@@ -67,7 +69,9 @@ cqsCOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two three four1h))
                               (lh . (b))
                               (rh . (ees)))
+    
   }
+  \vspace #padVal
   
 }
 cqsCp = \absolute {cqs'''_\cqsCOrig}
@@ -81,9 +85,12 @@ gcaqfOrig = \markup {
       \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
       \woodwind-diagram #'flute #'((cc . (one two1h three four five six))
                                   (lh . (b ))
-                                  (rh . (c cis)))
+                                  (rh . (c cis)))        
+      %\vspace #padVal
       }
-      \vspace #0.1
+      %\vspace #padVal
+      %\vspace #0.1
+      %\vspace #2
     }
   }
 }
@@ -95,7 +102,9 @@ dlowfOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two three four))
                               (lh . (b))
                               (rh . (d dis ees)))
+    
   }
+  \vspace #padVal
 }
 dlowfOp = \absolute {<d'' f''>_\dlowfOrig}
 dlowf = \addDur \dlowfOp
@@ -105,7 +114,9 @@ aaqsOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two1h three))
                               (lh . (b))
                               (rh . (ees)))
+    
   }
+  \vspace #padVal
 }
 aaqsOp = \absolute {<a' aqs''>_\aaqsOrig}
 aaqs   = \addDur \aaqsOp
@@ -115,7 +126,9 @@ cscqsOrig = \markup {
   \woodwind-diagram #'flute #'((cc . ())
                               (lh . (b))
                               (rh . (ees)))
+    
   }
+  \vspace #padVal
   
 }
 cscqsOp = \absolute {<cs'' cqs'''>_\cscqsOrig}
@@ -125,8 +138,11 @@ gferOrig = \markup {
   \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
   \woodwind-diagram #'flute #'((cc . (one two1h three four six))
                               (lh . (b))
-                              (rh . (ees)))
+                              (rh . (cis)))
+                              % (rh . (ees)))
+    
   }
+  \vspace #padVal
   
 }
 gferOp = \absolute {<g'' f'''>_\gferOrig}
@@ -137,7 +153,9 @@ ffflatOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two three four1h five six1h))
                               (lh . (b))
                               (rh . (ees)))
+    
   }
+  \vspace #padVal
   
 }
 ffflatOp = \absolute {<f'' f'''>_\ffflatOrig}
@@ -145,10 +163,14 @@ ffflat   = \addDur \ffflatOp
 
 gsgqsOrig = \markup {
   \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
-  \woodwind-diagram #'flute #'((cc . (one two three four five six))
+    
+     % #'((cc . (one two three four five six))
+  \woodwind-diagram #'flute #'((cc . (one two three1h six))                               
                               (lh . (b))
-                              (rh . ()))
+                              (rh . (ees)))
+    %\vspace #padVal
   }
+  
   
 }
 gsgqsOp = \absolute {<gs' gqs''>_\gsgqsOrig}
@@ -156,10 +178,13 @@ gsgqs   = \addDur \gsgqsOp
 
 gsaOrig = \markup {
   \rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
-  \woodwind-diagram #'flute #'((cc . (one two three four five six))
+  %  \woodwind-diagram #'flute #'((cc . (one two three four five six))
+  \woodwind-diagram #'flute #'((cc . (one two1h three four five six1h))
                               (lh . (b))
-                              (rh . (cis)))
+                              (rh . (c cis)))
+    
   }
+  \vspace #padVal
   
 }
 gsaOp = \absolute {<gs' a''>_\gsaOrig}
@@ -170,7 +195,9 @@ gnfOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two1h three four six))
                               (lh . (b))
                               (rh . (cis)))
+    
   }
+  \vspace #padVal
   
 }
 gnfOp = \absolute {<g'' f'''>_\gnfOrig}
@@ -181,7 +208,9 @@ glowOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two three six))
                               (lh . ())
                               (rh . ()))
+    
   }
+  \vspace #padVal
   
 }
 glowOp = \absolute {g'''_\glowOrig}
