@@ -54,12 +54,14 @@
 }
 
 %movement 2
-\score {
-  \header { piece = "Movement II" }
-   \new Staff \with { \consists "Page_turn_engraver"}{
-     %\override Score.BarNumber.outside-staff-priority = #1
-     \fluteTwo
-   }
+\bookpart {
+  \score {
+    \header { piece = "Movement II" }
+     \new Staff \with { \consists "Page_turn_engraver"}{
+       %\override Score.BarNumber.outside-staff-priority = #1
+       \fluteTwo
+     }
+  }
 }
 
 % intermission 2

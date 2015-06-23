@@ -128,7 +128,21 @@ fluteTwo =
 
     %\break
     
-    \time 3/4 \gcaqf2 <<\dlowf8 s8\staccato>> r8 |
+    % Stupid workaround so that the fingering charts don't overlap
+    %	at 83 and create a huge vertical space
+    \override Staff.Rest.transparent = ##t
+    \time 3/4 << \new Voice {
+                    \voiceTwo 
+                      \gcaqf2
+                  } 
+                  \new Voice {
+                    \voiceOne
+                      r4 r4
+                  } 
+               >> 
+        \override Staff.Rest.transparent = ##f
+        <<\dlowf8 s8\staccato>> r8 | 
+
     \time 2/4 d'2\sp\<-> |
     \time 3/4 \pitchedTrill <gs, gqs'>2.->\startTrillSpan_\markup { \gsgqsOrig \gsaOrig} a8
     \time 2/4 g!8\stopTrillSpan\mf-^ r8 r4 | 

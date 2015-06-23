@@ -33,7 +33,7 @@ aqfOOrig = \markup {
                               (lh . (b gis ))
                               (rh . (dis ees)))    
   }
-  \vspace #padVal
+  %\vspace #padVal
 }
 aqfOp = \absolute {aqf''_\aqfOOrig}
 aqfO = \addDur \aqfOp
@@ -45,7 +45,7 @@ aqfCOrig = \markup {
                               (lh . (b gis ))
                               (rh . (ees)))
   }
-  \vspace #padVal
+  %\vspace #padVal
 }
 aqfCp = \absolute {aqf''_\aqfCOrig}
 aqfC = \addDur \aqfCp
@@ -59,7 +59,7 @@ cqsOOrig = \markup {
                               (lh . (b))
                               (rh . (ees)))   
   }
-  \vspace #padVal 
+  %\vspace #padVal 
 }
 cqsOp = \absolute {cqs'''_\cqsOOrig}
 cqsO = \addDur \cqsOp
@@ -71,7 +71,7 @@ cqsCOrig = \markup {
                               (rh . (ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 cqsCp = \absolute {cqs'''_\cqsCOrig}
@@ -86,9 +86,9 @@ gcaqfOrig = \markup {
       \woodwind-diagram #'flute #'((cc . (one two1h three four five six))
                                   (lh . (b ))
                                   (rh . (c cis)))        
-      %\vspace #padVal
+      %%\vspace #padVal
       }
-      %\vspace #padVal
+      %%\vspace #padVal
       %\vspace #0.1
       %\vspace #2
     }
@@ -104,7 +104,7 @@ dlowfOrig = \markup {
                               (rh . (d dis ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
 }
 dlowfOp = \absolute {<d'' f''>_\dlowfOrig}
 dlowf = \addDur \dlowfOp
@@ -116,7 +116,7 @@ aaqsOrig = \markup {
                               (rh . (ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
 }
 aaqsOp = \absolute {<a' aqs''>_\aaqsOrig}
 aaqs   = \addDur \aaqsOp
@@ -128,7 +128,7 @@ cscqsOrig = \markup {
                               (rh . (ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 cscqsOp = \absolute {<cs'' cqs'''>_\cscqsOrig}
@@ -142,7 +142,7 @@ gferOrig = \markup {
                               % (rh . (ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 gferOp = \absolute {<g'' f'''>_\gferOrig}
@@ -155,7 +155,7 @@ ffflatOrig = \markup {
                               (rh . (ees)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 ffflatOp = \absolute {<f'' f'''>_\ffflatOrig}
@@ -168,7 +168,7 @@ gsgqsOrig = \markup {
   \woodwind-diagram #'flute #'((cc . (one two three1h six))                               
                               (lh . (b))
                               (rh . (ees)))
-    %\vspace #padVal
+    %%\vspace #padVal
   }
   
   
@@ -184,7 +184,7 @@ gsaOrig = \markup {
                               (rh . (c cis)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 gsaOp = \absolute {<gs' a''>_\gsaOrig}
@@ -197,7 +197,7 @@ gnfOrig = \markup {
                               (rh . (cis)))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 gnfOp = \absolute {<g'' f'''>_\gnfOrig}
@@ -210,7 +210,7 @@ glowOrig = \markup {
                               (rh . ()))
     
   }
-  \vspace #padVal
+  %\vspace #padVal
   
 }
 glowOp = \absolute {g'''_\glowOrig}
