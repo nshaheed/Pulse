@@ -36,8 +36,8 @@ fluteTwo =
 %     \gsa4
 %     \gnf4
 
-    %\override Score.BarNumber.break-visibility = ##(#t #t #t)
-    %\set Score.currentBarNumber = #1
+    % \override Score.BarNumber.break-visibility = ##(#t #t #t)
+%     \set Score.currentBarNumber = #1
     % Permit first bar number to be printed
     %\bar ""
     
@@ -93,7 +93,7 @@ fluteTwo =
       \appoggiatura {g,8} g'2-^ | \tuplet 3/2 {r4 fs\> fs} fs fs
     
     \time 5/4 <cs, cqs'>1~_\cscqsOrig <cs cqs'>4\! | 
-      r2 f,8-.\p r8 r4 f8-. r8 |
+      \pageTurn r2 f,8-.\p r8 r4 f8-. r8 |
       r2 \appoggiatura{\glow8} f'4\staccato\mp r4 f,8-. r8 | 
       \appoggiatura{\glow8} f'4\staccato\mf r4 f2. |
     
@@ -154,12 +154,11 @@ fluteTwo =
       \pitchedTrill <gs gqs'>2\startTrillSpan a8 \breathe 
         \appoggiatura f'8 <<\glow4 s4\staccato\stopTrillSpan>> 
       <g, c aqf'>2_\gcaqfOrig \breathe <<\dlowf8 s8-> >> r8 |
-      
-    \time 3/4 <<\gfer2. s2.-> >> | <<g'2. f'2. s2.-^>> | <g, f'>~-^\< | <g f'>:32~ | <g f'>:32~ |
+      <<\gfer2. s2.-> >> | <<g'2. f'2. s2.-^>> | <g, f'>~-^\< | <g f'>:32~ | <g f'>:32~ |
       << <g f'>:32 {s4 s s\!} >> 
       % turns off bar number visibility - was displaying measure
       %		number after the last measure
-      % \override Score.BarNumber.break-visibility = ##(#f #f #f)
+      \override Score.BarNumber.break-visibility = ##(#f #f #f)
       \bar "|."
       
       % Examples of the notes w/ fixed fingerings

@@ -4,6 +4,9 @@
 \include "flute_mvmt_3_contents.ly"
 
 #(set! paper-alist (cons '("my size" . (cons (* 8.5 in) (* 11 in))) paper-alist))
+
+% \override Score.BarNumber.break-visibility = ##(#f #f #f)
+% \set Score.currentBarNumber = #1
     
 \paper {
   #(set-paper-size "my size")

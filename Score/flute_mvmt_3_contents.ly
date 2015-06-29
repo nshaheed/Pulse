@@ -38,8 +38,8 @@ fluteThree =
      "= Heart Beat"
     }
     
-    \override Score.BarNumber.break-visibility = ##(#t #t #t)
-    \set Score.currentBarNumber = #1
+    % \override Score.BarNumber.break-visibility = ##(#t #t #t)
+    % \set Score.currentBarNumber = #1
     
     % \pitchedTrill fs\startTrillSpan g\stopTrillSpan
     
@@ -68,7 +68,7 @@ fluteThree =
               \hb r4 <<\tdh s2-> >> | 
               g'8\stopTrillSpan-^ r8 g,4\< a \hb |
               bf2 \appoggiatura df16 <<\tdh s2-> >> |
-              g16\stopTrillSpan cs, b8 bf4 <<\hb s4^>\!>> r4 |
+              g16\stopTrillSpan cs, b8 bf4 <<\hb s4^>\!>> r4 | \pageTurn
     
     \time 2/4 \tdh |
     \time 3/4 g'4\stopTrillSpan\< a bf |

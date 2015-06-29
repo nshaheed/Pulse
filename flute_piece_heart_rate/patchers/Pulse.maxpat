@@ -541,7 +541,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 656.75, 23.5, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 656.75, 23.5, 29.5, 22.0 ],
+					"presentation_rect" : [ 723.75, 25.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "3"
 				}
@@ -9669,7 +9669,7 @@
 													"hidden" : 0,
 													"source" : [ "obj-42", 1 ],
 													"watchpoint_flags" : 2,
-													"watchpoint_id" : 6
+													"watchpoint_id" : 3
 												}
 
 											}
@@ -11909,7 +11909,7 @@
 									"midpoints" : [ 387.5, 310.25, 185.5, 310.25 ],
 									"source" : [ "obj-77", 1 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 3
+									"watchpoint_id" : 5
 								}
 
 							}
@@ -20850,7 +20850,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.25, 23.5, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 625.25, 23.5, 29.5, 22.0 ],
+					"presentation_rect" : [ 692.25, 25.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -20865,7 +20865,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 584.0, 23.5, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 23.5, 29.5, 22.0 ],
+					"presentation_rect" : [ 651.0, 25.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -21463,7 +21463,7 @@
 ,
 					"patching_rect" : [ 605.0, 59.5, 70.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 605.0, 59.5, 70.0, 22.0 ],
+					"presentation_rect" : [ 672.0, 61.5, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -26727,7 +26727,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 26.0, 85.0, 1468.0, 715.0 ],
+														"rect" : [ 42.0, 85.0, 1468.0, 715.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -33269,7 +33269,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 5
+									"watchpoint_id" : 7
 								}
 
 							}
@@ -38217,14 +38217,14 @@
 																					"fontname" : "Arial",
 																					"fontsize" : 12.0,
 																					"id" : "obj-17",
-																					"linecount" : 7,
+																					"linecount" : 8,
 																					"maxclass" : "message",
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 472.0, 200.0, 18.0, 32.0 ],
 																					"style" : "",
-																					"text" : "0.56391"
+																					"text" : "1.071429"
 																				}
 
 																			}
@@ -41381,45 +41381,45 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-32::obj-5::obj-1::obj-61" : [ "Decay", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-6" : [ "Window_Narrow", "Amount", 0 ],
+			"obj-56::obj-73" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-32::obj-5::obj-1::obj-17" : [ "Filter_Attack", "live.numbox", 0 ],
+			"obj-25" : [ "Sustain[1]", "live.numbox", 0 ],
+			"obj-70::obj-77" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-32::obj-5::obj-1::obj-40" : [ "Grain_Transpose", "live.numbox", 0 ],
+			"obj-30::obj-90" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-32::obj-5::obj-1::obj-62" : [ "Release", "live.numbox", 0 ],
+			"obj-35" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-32::obj-5::obj-1::obj-70" : [ "Morph", "Amount", 0 ],
-			"obj-32::obj-5::obj-1::obj-57" : [ "Filter_Resonance", "Filter_Resonance", 0 ],
+			"obj-32::obj-5::obj-1::obj-45" : [ "Crossfade", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-50" : [ "Normalize2", "Normalize2", 0 ],
+			"obj-32::obj-5::obj-1::obj-14" : [ "Filter_Release", "live.numbox", 0 ],
+			"obj-64::obj-104" : [ "Rnd_Position[1]", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-104" : [ "Rnd_Position", "live.numbox", 0 ],
+			"obj-32::obj-13" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-32::obj-5::obj-1::obj-24" : [ "Filter_Cutoff", "Freq", 0 ],
+			"obj-32::obj-5::obj-1::obj-113" : [ "live.tab", "live.tab", 0 ],
 			"obj-13" : [ "live.gain~[10]", "live.gain~[10]", 0 ],
-			"obj-32::obj-5::obj-1::obj-94" : [ "live.menu", "live.menu", 0 ],
+			"obj-32::obj-5::obj-1::obj-5" : [ "Scrub_Speed_num", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-20" : [ "Resync", "Resync", 0 ],
+			"obj-88" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-32::obj-5::obj-1::obj-27" : [ "Scrub_Speed", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-120" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-59" : [ "Sustain", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-44" : [ "Normalize1", "Normalize1", 0 ],
+			"obj-32::obj-5::obj-1::obj-61" : [ "Decay", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-57" : [ "Filter_Resonance", "Filter_Resonance", 0 ],
+			"obj-81" : [ "live.gain~[13]", "live.gain~[13]", 0 ],
 			"obj-32::obj-5::obj-1::obj-110" : [ "Grain_Rate", "Freq", 0 ],
 			"obj-32::obj-5::obj-1::obj-4" : [ "Phase_Skew", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-60" : [ "Attack", "live.numbox", 0 ],
-			"obj-64::obj-104" : [ "Rnd_Position[1]", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-54" : [ "Filter_Envelope", "Filter_Envelope", 0 ],
-			"obj-56::obj-73" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-7" : [ "Natural_Pitch", "live.numbox", 0 ],
-			"obj-70::obj-77" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-44" : [ "Normalize1", "Normalize1", 0 ],
-			"obj-32::obj-5::obj-1::obj-32" : [ "Rnd_Pitch", "live.numbox", 0 ],
-			"obj-81" : [ "live.gain~[13]", "live.gain~[13]", 0 ],
+			"obj-32::obj-5::obj-1::obj-94" : [ "live.menu", "live.menu", 0 ],
 			"obj-38" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-6" : [ "Window_Narrow", "Amount", 0 ],
-			"obj-32::obj-5::obj-1::obj-17" : [ "Filter_Attack", "live.numbox", 0 ],
-			"obj-32::obj-13" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-40" : [ "Grain_Transpose", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-62" : [ "Release", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-60" : [ "Attack", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-54" : [ "Filter_Envelope", "Filter_Envelope", 0 ],
 			"obj-46::obj-26" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-45" : [ "Crossfade", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-14" : [ "Filter_Release", "live.numbox", 0 ],
-			"obj-31::obj-48" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-113" : [ "live.tab", "live.tab", 0 ],
-			"obj-25" : [ "Sustain[1]", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-5" : [ "Scrub_Speed_num", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-104" : [ "Rnd_Position", "live.numbox", 0 ],
-			"obj-35" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-24" : [ "Filter_Cutoff", "Freq", 0 ],
-			"obj-88" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-32::obj-5::obj-1::obj-120" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-20" : [ "Resync", "Resync", 0 ],
-			"obj-32::obj-5::obj-1::obj-50" : [ "Normalize2", "Normalize2", 0 ],
-			"obj-32::obj-5::obj-1::obj-27" : [ "Scrub_Speed", "live.numbox", 0 ],
-			"obj-32::obj-5::obj-1::obj-59" : [ "Sustain", "live.numbox", 0 ],
-			"obj-30::obj-90" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-32::obj-5::obj-1::obj-7" : [ "Natural_Pitch", "live.numbox", 0 ],
+			"obj-32::obj-5::obj-1::obj-32" : [ "Rnd_Pitch", "live.numbox", 0 ],
+			"obj-31::obj-48" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

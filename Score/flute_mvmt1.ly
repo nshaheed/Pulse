@@ -39,8 +39,8 @@ fluteOne =
 
     % uncomment when done updating to preserve measure num
     
-    %\override Score.BarNumber.break-visibility = ##(#t #t #t)
-    %\set Score.currentBarNumber = #1
+    % \override Score.BarNumber.break-visibility = ##(#t #t #t)
+%     \set Score.currentBarNumber = #1
     R1*4 |
     
     <<\hb s4\p>> r4 \hb r4 | \hb \hb r2
@@ -70,7 +70,7 @@ fluteOne =
     \time 4/4 r4 \hb fs4-> \hb | f!2-> r8 \appoggiatura g,16 cs8\p r4 | 
       g'8\staccato cs,\staccato r g\< bf16 cs! g' bf cs\f g8. |
       gs16 as b as! g8\staccato cs\staccato fs,\staccato b-^ \hbn | 
-      as16( b cs e-^) as,!16( b cs! e-^) as,!16( b cs! e-^) <<\hb s4\p>> |
+      as16( b cs e-^) as,!16( b cs! e-^) as,!16( b cs! e-^) <<\hb s4\p>> | \pageTurn
       r4 \hb r4 \hb | cs4\f-> ds, fs \appoggiatura ef16 f\staccato f8.\staccato |
       g8 gs as4-> e cs' | fs,8 f \appoggiatura ef16 f\staccato f8.\staccato <<\hb s4\p>> \hbn |
       r8 g,\< bf16 cs g' bf cs\mf g8. gs16 as b as! |
@@ -93,7 +93,7 @@ fluteOne =
       bf,!( cs! d fs!) bf,!( cs! d g)  | bf,!( cs! d fs!) bf,!( cs! d g) 
       fs!8[ bf,!] d[ cs!] | g->[ fs'] bf,[ d] cs[ g->] fs'![ bf,! ] | d[ cs] g->[ fs'] bf,[ d] cs![ g->] |
       g'4:32-> cs, ds, fs | 
-    \time 3/4 f2-> g16( gs as e) | f2-> g8 gs | as4 e cs' | fs, f4.-> b!8 | ds4 e, gs | g!8 bf fs'4 gs, |
+    \time 3/4 f!2-> g16( gs as e) | f2-> g8 gs | as4 e cs' | fs, f4.-> b!8 | ds4 e, gs | g!8 bf fs'4 gs, |
       c b2-> | cs16 d e as, b2 | r4 f'4:32-> bf,:32 | d:32 r d16-> df c b | 
       g8->[ fs'] bf,[ d] cs-> r | fs4:32-> f8-^ r bf,4:32-> | fs':32 d:32 cs8-^ r | 
       cs-^ r g16 bf cs! r cs8-^ r | cs-^ r bf16 cs! d r cs8-^ r | cs-^ r cs-^ r cs fs,-^ |
