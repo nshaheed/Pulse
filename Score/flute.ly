@@ -55,11 +55,25 @@ fluteTwo =
     \time 2/4 R2\! | 
     \time 4/4 << {\gcaqf2.} {s2.\<\breathe} >> <<\dlowf8 s8\f\staccato-+>> r8 | 
     \time 5/4 R1*5/4 |
-    \time 3/4 <d\harmonic d d'>4--\p \appoggiatura f'8 << \aaqs2 s2\sf >>|
-    \time 5/4 <d,\harmonic d d'>4--\p \appoggiatura f'8 <a, aqs'>2\sf_\aaqsOrig~ <a aqs'>8 d8 d,\p-. r |
-    \time 3/4 f'4 \aaqs4.. d'16-^ | 
-    \time 4/4 \gcaqf2 \vib d2:32~\<\startTrillSpan | 
-    \time 4/4 d8. <d, f>16->\!_\dlowfOrig\stopTrillSpan \tuplet 3/4 {r4 d'8->\mf} r4 |
+    \time 3/4 <<\dlowf8 s8\f\staccato>> r8 r4 r4 | <d\harmonic d d'>2.-\p |
+    <<\dlowf8 s8\f\staccato>> r8 r4 r4 | R2. |
+    \appoggiatura f'8 << \aaqs2 s2\sf >> r4 | r4 <d\harmonic d d'>2-\p |
+    R2. | <<\dlowf8 s8\f\staccato>> r8 r4  \appoggiatura f'8 <a,, aqs'>4\sf_\aaqsOrig~ |
+    <a aqs'>4. d8-. d,\p-. r8 | R2. |
+
+    \time 4/4 f'4 \aaqs4.. d'16-^  r4 | f,4\mp \aaqs4.. d'16-^  r4 |
+
+    \time 3/4 f,4 \gcaqf2 |
+    \vib d'2:32~\<\startTrillSpan d8. <d, f>16->\!_\dlowfOrig\stopTrillSpan |
+
+    \time 2/4 \tuplet 3/2 {r4 d'8->\mf} r4 |
+    
+    % \time 3/4 <d\harmonic d d'>4--\p \appoggiatura f'8 << \aaqs2 s2\sf >>|
+    % \time 5/4 <d,\harmonic d d'>4--\p \appoggiatura f'8 <a, aqs'>2\sf_\aaqsOrig~ <a aqs'>8 d8 d,\p-. r |
+    % \time 3/4 f'4 \aaqs4.. d'16-^ | 
+    % \time 4/4 \gcaqf2 \vib d2:32~\<\startTrillSpan | 
+				% \time 4/4 d8. <d, f>16->\!_\dlowfOrig\stopTrillSpan \tuplet 3/4 {r4 d'8->\mf} r4 |
+    
     \time 3/4 \tuplet 3/4 {d,,8 r4} <d' f>4~_\dlowfOrig | <d f>4 <d f>8. d'16-> \gcaqf4 | 
     \time 5/4 r4 \gcaqf2. r4 |
     
@@ -160,7 +174,7 @@ fluteTwo =
       %		number after the last measure
       \override Score.BarNumber.break-visibility = ##(#f #f #f)
       \bar "|."
-      
+
       % Examples of the notes w/ fixed fingerings
       % \break 
 %       

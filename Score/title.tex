@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+﻿%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Minimalist Book Title Page 
 % LaTeX Template
 % Version 1.0 (27/12/12)
@@ -31,7 +31,7 @@
 \usepackage{afterpage}
 
 \setmainfont{DejaVu Sans ExtraLight}
-\newcommand*{\plogo}{\fbox{2015}} % Generic publisher logo
+\newcommand*{\yr}{\fbox{2015}} % Year
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -43,7 +43,7 @@
 
 {\Large Nicholas Shaheed}\\[0.167\textheight] % Composer
 
-% {\LARGE\bfseries The Big Book of}\\[\baselineskip] % First part of the title, if it is unimportant consider making the font size smaller to accentuate the main title
+%% %% {\LARGE\bfseries The Big Book of}\\[\baselineskip] % First part of the title, if it is unimportant consider making the font size smaller to accentuate the main title
 
 \vfill % Space between composer and title block
 
@@ -53,7 +53,7 @@
 
 \vfill % Whitespace between the title block and the publisher
 
-{\large \plogo}\par % Publisher and logo
+{\large \yr}\par % Publisher and logo
 
 \vspace*{3\baselineskip} % Whitespace at the bottom of the page
 \endgroup}
@@ -66,9 +66,10 @@
 
 \pagestyle{empty} % Removes page numbers
 
+
 \titleTH % This command includes the title page
 
-% blank page following title
+%% blank page following title
 \afterpage{\null\newpage}
 
 \end{document}

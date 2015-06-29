@@ -12,8 +12,6 @@
 
 % #(set-global-staff-size 22.45)
 
-
-
 \header {
  title = \markup {
    \override #'(font-name . "DejaVu Sans ExtraLight") 
