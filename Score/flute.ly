@@ -41,7 +41,7 @@ fluteTwo =
     % Permit first bar number to be printed
     %\bar ""
     
-    g8\staccato\p r r2 | R2. | g4\staccato-+ r2
+    g8\staccato\p r r2 | R2. | g4\staccato r2
     
     \time 4/4 R1   |
     \time 4/4 c1-> |
@@ -53,7 +53,7 @@ fluteTwo =
     \time 3/4 R2. | 
     \time 4/4 <g c aqf'>1~\<_\gcaqfOrig | <g c aqf'>\!\> | 
     \time 2/4 R2\! | 
-    \time 4/4 << {\gcaqf2.} {s2.\<\breathe} >> <<\dlowf8 s8\f\staccato-+>> r8 | 
+    \time 4/4 << {\gcaqf2.} {s2.\<\breathe} >> <<\dlowf8 s8\f\staccato>> r8 | 
     \time 5/4 R1*5/4 |
     \time 3/4 <<\dlowf8 s8\f\staccato>> r8 r4 r4 | <d\harmonic d d'>2.-\p |
     <<\dlowf8 s8\f\staccato>> r8 r4 r4 | R2. |
@@ -93,7 +93,7 @@ fluteTwo =
 
     \time 4/4 <a, aqs'-^ >1~\fp\<_\aaqsOrig | \vib <a aqs'>1:32\startTrillSpan
     \time 3/4 d'16-^\ff\stopTrillSpan r r8 r2 | R2. * 2 |
-    \time 4/4 cqs1~_\cqserr\p-+ | 
+    \time 4/4 cqs1~_\cqserr\p | 
     \time 5/4 cqs4 r4 b,4 r2 | 
     \time 4/4 cqs'1~ | cqs4 r8 b,8--~ b4 r | 
       << {<g c aqf'>1_\gcaqfOrig~} {s1\<}>> | << {<g c aqf'>1~ } {s2 s2\>} >> | 
@@ -115,7 +115,7 @@ fluteTwo =
       g1:32 | 
       
     \time 3/4 r4\! \appoggiatura g8 f,4\staccato\mp r4 | f8\staccato r8 r4 f8\staccato r8 |
-      \vib <f f'>2.:32\<\startTrillSpan-+ | 
+      \vib <f f'>2.:32\<\startTrillSpan | 
       r4\!\stopTrillSpan f8\staccato\f r8 <bf,\harmonic bf bf'>\staccato r |
       <bf\harmonic bf bf'>8\staccato <bf\harmonic bf bf'>8\staccato 
         r8 f'16( bf g'8\staccato_\glowOrig) r8 | 
@@ -134,7 +134,7 @@ fluteTwo =
       <g c aqf'>4\<_\gcaqfOrig-> <g c aqf'>2:32-> | 
       \pitchedTrill <gs gqs'>2.\startTrillSpan_\markup { \gsgqsOrig \gsaOrig} a8
       
-    \time 2/4 <g c aqf'>2:32_\gcaqfOrig\stopTrillSpan\ff-+ | 
+    \time 2/4 <g c aqf'>2:32_\gcaqfOrig\stopTrillSpan\ff | 
     \time 3/4 \pitchedTrill <gs gqs'>2.\startTrillSpan a8
     \time 2/4 <gs gqs'>2->\stopTrillSpan | 
     \time 3/4 <g c aqf'>2.:32 | 
