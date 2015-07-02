@@ -119,7 +119,11 @@ fluteOne =
       r4 <<\hb s4\p>> \hb | r4 \hb r | \hb r2 |
       \appoggiatura ef16 f8\staccato r r4 f8\staccato r8 |
       f8-. r r4 f8\staccato r8 | f2.~\> | f2.~ | 
-      <<f2.{s4 s4 s4\!}>> \bar "|."
+      <<f2.{s4 s4 s4\!}>>
+      % turns off bar number visibility - was displaying measure
+      %		number after the last measure
+      \override Score.BarNumber.break-visibility = ##(#f #f #f)
+      \bar "|."
     %todo: add cesc to above material
     
       
