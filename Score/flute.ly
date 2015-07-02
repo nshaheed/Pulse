@@ -43,14 +43,12 @@ fluteTwo =
     
     g8\staccato\p r r2 | R2. | g4\staccato r2
     
-    \time 4/4 R1   |
-    \time 4/4 c1-> |
+    \time 4/4 R1 | c1-> |
     \time 3/4 R2.  | c8\staccato r r2 | 
     \time 4/4 \aqfer1 
     \time 2/4 R2 | 
     \time 4/4 aqf'1 | 
-    \time 3/4 r2 g,8\staccato r8 | 
-    \time 3/4 R2. | 
+    \time 3/4 r2 g,8\staccato r8 | R2. | 
     \time 4/4 <g c aqf'>1~\<_\gcaqfOrig | <g c aqf'>\!\> | 
     \time 2/4 R2\! | 
     \time 4/4 << {\gcaqf2.} {s2.\<\breathe} >> <<\dlowf8 s8\f\staccato>> r8 | 
@@ -84,9 +82,8 @@ fluteTwo =
     \time 4/4 \vib <d,,\harmonic d d'>2.:32\startTrillSpan\< d'16->\stopTrillSpan r16 r8 |
       \vib <d,\harmonic d d'>2.:32\startTrillSpan d'16->\stopTrillSpan r16 r8 |
       <a aqs'>4_\aaqsOrig \vib <a aqs'>2.:32\startTrillSpan |
-      
-    \time 4/4 <d,\harmonic d d'>4\staccato\stopTrillSpan 
-       \vib <a' aqs'>2.:32\startTrillSpan
+      <d,\harmonic d d'>4\staccato\stopTrillSpan 
+      \vib <a' aqs'>2.:32\startTrillSpan
       
     \time 3/4 d8\stopTrillSpan d' r16 \aqfer8 r16 r4 | af16 g gf f r4 r16 \aqfer8 r16 | 
       \vib <d,\harmonic d d'>2:32\startTrillSpan d''16-^\stopTrillSpan r16 r8 | 
@@ -97,12 +94,10 @@ fluteTwo =
     \time 5/4 cqs4 r4 b,4 r2 | 
     \time 4/4 cqs'1~ | cqs4 r8 b,8--~ b4 r | 
       << {<g c aqf'>1_\gcaqfOrig~} {s1\<}>> | << {<g c aqf'>1~ } {s2 s2\>} >> | 
-      << {<g c aqf'>1} {s2. s4\!\breathe} >>
-      
-    \time 4/4 b4.( cqs'8_\cqserr~ cqs2~ | 
+      << {<g c aqf'>1} {s2. s4\!\breathe} >> |  b4.( cqs'8_\cqserr~ cqs2~ | 
     \time 3/4 <cs, cqs'>2._\cscqsOrig ) | 
     \time 4/4 \tuplet 3/2 {c,4-- c-- c--} c-- c-- | r8 c8-- c2.-- | 
-    \time 4/4 r4 <fs\harmonic fs fs'>4 <cs' cqs'>2_\cscqsOrig~ | \vib cqs'1:32\<_\cqserr\startTrillSpan | 
+      r4 <fs\harmonic fs fs'>4 <cs' cqs'>2_\cscqsOrig~ | \vib cqs'1:32\<_\cqserr\startTrillSpan | 
       \tuplet 3/2 {fs4\!\stopTrillSpan-^ fs fs} \tuplet 3/2 {fs-^ fs fs} | fs fs
       \appoggiatura {g,8} g'2-^ | \tuplet 3/2 {r4 fs\> fs} fs fs
     
