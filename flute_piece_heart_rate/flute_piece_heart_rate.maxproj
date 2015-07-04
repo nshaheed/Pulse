@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3512545632,
+	"modificationdate" : 3518792312,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -176,7 +176,8 @@
 			}
 ,
 			"mvmt3.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"steam_slow.maxpat" : 			{
@@ -185,15 +186,28 @@
 			}
 ,
 			"Pulse.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"mvmt2stripper.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"counterMvmtParserTest.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"adjPitchshift.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/patchers",
+					"projectrelativepath" : "./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/."
+				}
+
 			}
 
 		}
@@ -234,7 +248,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
-					"projectrelativepath" : "./media"
+					"projectrelativepath" : "./media/./media/./media/./media/./media/."
 				}
 
 			}
@@ -244,7 +258,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
-					"projectrelativepath" : "./media"
+					"projectrelativepath" : "./media/./media/./media/./media/./media/."
 				}
 
 			}
@@ -284,6 +298,11 @@
 				"local" : 1
 			}
 ,
+			"counterMvmt2.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
 			"testCounter.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -292,16 +311,6 @@
 			"counterValues.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
-			}
-,
-			"counterMvmt2.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/data",
-					"projectrelativepath" : "./data"
-				}
-
 			}
 
 		}
@@ -325,5 +334,7 @@
 ,
 	"detailsvisible" : 0,
 	"amxdtype" : 0,
-	"readonly" : 1
+	"readonly" : 1,
+	"devpathtype" : 0,
+	"devpath" : "."
 }
