@@ -87,7 +87,7 @@ fluteThree =
               fs4-> ef'8[ d] b[ df] |
               c4 fs g |
     \time 2/4 <<\gcaqf2 s2\< >> | 
-    \time 4/4 g,8:64^"flt."\sp\<[ g:64] g:64 g:64 g:64[ g:64] g:64 g:64 | 
+    \time 4/4 g,8:64\sp\<[ g:64] g:64 g:64 g:64[ g:64] g:64 g:64 | 
               g:64 g:64 g4\mf a8-. bf-. fs4-> |
               d'4. f,!8-> d[ f~] f fs |
               g4 f8-- e-- df'4. bf8-. | 

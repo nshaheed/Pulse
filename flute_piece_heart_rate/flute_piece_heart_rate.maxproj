@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3518792312,
+	"modificationdate" : 3519202096,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -190,6 +190,11 @@
 				"local" : 1
 			}
 ,
+			"adjPitchshift.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mvmt2stripper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -200,7 +205,7 @@
 				"local" : 1
 			}
 ,
-			"adjPitchshift.maxpat" : 			{
+			"fadeout.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
