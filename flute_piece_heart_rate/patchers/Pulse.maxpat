@@ -1165,7 +1165,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 28.333313, 535.0, 688.0, 110.0 ],
 					"style" : "",
-					"text" : "Movement 1",
+					"text" : "Movement 3",
 					"textjustification" : 1
 				}
 
@@ -2333,7 +2333,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 535.5, 101.0, 50.0, 36.0 ],
 					"style" : "",
-					"text" : "Movement 1"
+					"text" : "Movement 3"
 				}
 
 			}
@@ -19419,8 +19419,8 @@
 									"patching_rect" : [ 149.0, 522.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 1.006956 ],
-										"pitchshiftcent" : [ 12 ],
+										"pitchshift" : [ 1.084227 ],
+										"pitchshiftcent" : [ 140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -20961,14 +20961,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 329.0, 320.0, 121.0, 22.0 ],
 									"style" : "",
-									"text" : "pitchshiftcent -12.896347"
+									"text" : "pitchshiftcent -140"
 								}
 
 							}
@@ -21242,8 +21241,8 @@
 									"patching_rect" : [ 171.0, 357.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.993092 ],
-										"pitchshiftcent" : [ -12 ],
+										"pitchshift" : [ 0.922316 ],
+										"pitchshiftcent" : [ -140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -23031,14 +23030,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 398.0, 464.0, 102.0, 36.0 ],
 									"style" : "",
-									"text" : "pitchshiftcent 12.896347"
+									"text" : "pitchshiftcent 140"
 								}
 
 							}
@@ -23312,8 +23310,8 @@
 									"patching_rect" : [ 268.0, 473.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 1.006956 ],
-										"pitchshiftcent" : [ 12 ],
+										"pitchshift" : [ 1.084227 ],
+										"pitchshiftcent" : [ 140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -24433,7 +24431,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 396.0, 461.0, 104.0, 36.0 ],
 									"style" : "",
-									"text" : "pitchshiftcent -12.896347"
+									"text" : "pitchshiftcent -140"
 								}
 
 							}
@@ -24772,8 +24770,8 @@
 									"patching_rect" : [ 248.0, 455.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.993092 ],
-										"pitchshiftcent" : [ -12 ],
+										"pitchshift" : [ 0.922316 ],
+										"pitchshiftcent" : [ -140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -25288,14 +25286,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 464.0, 353.0, 42.0, 77.0 ],
+									"patching_rect" : [ 464.0, 353.0, 42.0, 64.0 ],
 									"style" : "",
-									"text" : "pitchshiftcent -12.896347"
+									"text" : "pitchshiftcent -140"
 								}
 
 							}
@@ -25543,8 +25541,8 @@
 									"patching_rect" : [ 336.0, 355.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.993092 ],
-										"pitchshiftcent" : [ -12 ],
+										"pitchshift" : [ 0.922316 ],
+										"pitchshiftcent" : [ -140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -26354,14 +26352,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 429.0, 349.0, 136.0, 36.0 ],
+									"patching_rect" : [ 429.0, 349.0, 136.0, 22.0 ],
 									"style" : "",
-									"text" : "pitchshiftcent -12.896347"
+									"text" : "pitchshiftcent -140"
 								}
 
 							}
@@ -26608,8 +26605,8 @@
 									"patching_rect" : [ 221.0, 432.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.993092 ],
-										"pitchshiftcent" : [ -12 ],
+										"pitchshift" : [ 0.922316 ],
+										"pitchshiftcent" : [ -140 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -34953,7 +34950,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 79.5, 252.5, 92.0, 22.0 ],
 																	"style" : "",
-																	"text" : "2 4 0"
+																	"text" : "0 3 0"
 																}
 
 															}
@@ -39618,7 +39615,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 317.0, 264.0, 50.0, 36.0 ],
 																	"style" : "",
-																	"text" : "0.091964"
+																	"text" : "0.078571"
 																}
 
 															}
@@ -42476,17 +42473,98 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-4",
-									"linecount" : 5,
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-67",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1590.0, 186.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1130.0, -360.0, 232.0, 134.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-61",
+									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 383.0, 44.0, 150.0, 75.0 ],
+									"patching_rect" : [ 359.5, 526.0, 150.0, 241.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 10,
+									"presentation_rect" : [ 30.0, 278.5, 331.0, 144.0 ],
+									"style" : "",
+									"text" : "For performance there are 2 options for setting the maximum/minimum heart rate (they are selected by the toggle to the right):\n\nYou can choose to use the overall heart rate constraints, which will have the same maximum and minimum heart rates throughout the piece.\n\nOr you can set individual max/min values for each of the movements - to limit the tempo if needed."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 677.5, 604.0, 150.0, 34.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 222.5, 69.5, 143.0, 48.0 ],
+									"style" : "",
+									"text" : "All settings in this tool will be stored for future use."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 521.5, 545.0, 150.0, 89.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
-									"presentation_rect" : [ 353.0, 14.0, 150.0, 75.0 ],
+									"presentation_rect" : [ 30.0, 56.0, 170.0, 75.0 ],
 									"style" : "",
-									"text" : "Off - Use the overall heart rate max/min settings\nOn - Use the heart rate max/min settings for the individual movements."
+									"text" : "Use this tool to determine the maximum and minimum heart rates to constrain the tempo and heart rate analysis of this piece."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 24.0,
+									"id" : "obj-10",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 517.5, 670.0, 290.0, 62.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 30.0, 14.0, 475.0, 34.0 ],
+									"style" : "",
+									"text" : "Calibrate Maximum & Minimum Heart Rate:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 843.0, 618.0, 150.0, 89.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 376.0, 278.5, 155.0, 89.0 ],
+									"style" : "",
+									"text" : "Off - Use the overall heart rate setting throughout the piece.\nOn - Use the heart rate max/min settings for the individual movements."
 								}
 
 							}
@@ -42523,7 +42601,7 @@
 									"patching_rect" : [ 210.0, 662.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 613.0, 291.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 613.0, 529.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 3 Maximum"
 								}
@@ -42538,7 +42616,7 @@
 									"patching_rect" : [ 210.0, 640.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 613.0, 231.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 613.0, 469.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 3 Minimum"
 								}
@@ -42553,7 +42631,7 @@
 									"patching_rect" : [ 210.0, 597.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 438.0, 291.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 438.0, 529.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 2 Maximum"
 								}
@@ -42568,7 +42646,7 @@
 									"patching_rect" : [ 210.0, 618.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 438.0, 231.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 438.0, 469.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 2 Minimum"
 								}
@@ -42583,7 +42661,7 @@
 									"patching_rect" : [ 210.0, 575.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 277.0, 291.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 277.0, 529.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 1 Maximum"
 								}
@@ -42598,7 +42676,7 @@
 									"patching_rect" : [ 210.0, 553.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 277.0, 231.0, 78.5, 34.0 ],
+									"presentation_rect" : [ 277.0, 469.0, 78.5, 34.0 ],
 									"style" : "",
 									"text" : "Movement 1 Minimum"
 								}
@@ -42702,7 +42780,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 454.0, 56.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 416.0, 99.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 531.5, 309.0, 24.0, 24.0 ],
 									"style" : "",
 									"varname" : "toggle"
 								}
@@ -42715,7 +42793,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 245.0, 9.0, 154.0, 62.0 ],
+									"patching_rect" : [ 673.5, 545.0, 154.0, 62.0 ],
 									"style" : "",
 									"text" : "0 - Use discrete max/mins for the movements\n1 - Use a single heart beat throughout"
 								}
@@ -42883,7 +42961,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1179.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 693.5, 297.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 693.5, 535.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[7]"
 								}
@@ -42900,7 +42978,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1059.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 693.5, 237.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 693.5, 475.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[6]"
 								}
@@ -42917,7 +42995,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 943.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 518.5, 297.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 518.5, 535.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[5]"
 								}
@@ -42934,7 +43012,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 823.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 518.5, 237.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 518.5, 475.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[4]"
 								}
@@ -42951,7 +43029,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 707.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 357.5, 297.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 357.5, 535.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[3]"
 								}
@@ -42968,7 +43046,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 587.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 357.5, 237.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 357.5, 475.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[2]"
 								}
@@ -43091,16 +43169,16 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-25",
-									"linecount" : 4,
+									"linecount" : 13,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 58.0, 526.0, 150.0, 62.0 ],
+									"patching_rect" : [ 58.0, 526.0, 150.0, 186.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 30.0, 112.0, 150.0, 62.0 ],
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 30.0, 168.5, 501.0, 75.0 ],
 									"style" : "",
-									"text" : "Click to begin measuring your heartbeat for the maximum/minmum heart rate."
+									"text" : "Toggle on to begin measuring your heartbeat to determine the maximum/minimum heart rate.\n\nSuggestions to achieve maximum heart rate: Do some exercise, your heart rate during a performance is going to be higher than your heart rate during reharsal."
 								}
 
 							}
@@ -43114,7 +43192,7 @@
 									"patching_rect" : [ 58.0, 626.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 291.0, 150.0, 34.0 ],
+									"presentation_rect" : [ 30.0, 529.0, 150.0, 34.0 ],
 									"style" : "",
 									"text" : "Overall Maximum Heart Rate"
 								}
@@ -43130,7 +43208,7 @@
 									"patching_rect" : [ 58.0, 590.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 231.0, 150.0, 34.0 ],
+									"presentation_rect" : [ 30.0, 469.0, 150.0, 34.0 ],
 									"style" : "",
 									"text" : "Overall Minimum Heart Rate"
 								}
@@ -43145,7 +43223,7 @@
 									"patching_rect" : [ 58.0, 662.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 161.0, 29.0, 116.0, 34.0 ],
+									"presentation_rect" : [ 389.0, 56.0, 116.0, 34.0 ],
 									"style" : "",
 									"text" : "Current Heart Rate (BPM)"
 								}
@@ -43153,6 +43231,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontsize" : 36.0,
 									"format" : 6,
 									"id" : "obj-17",
 									"maxclass" : "flonum",
@@ -43160,9 +43239,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 219.0, 156.0, 50.0, 22.0 ],
+									"patching_rect" : [ 219.0, 156.0, 109.0, 50.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 194.0, 72.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 392.5, 92.0, 109.0, 50.0 ],
 									"style" : ""
 								}
 
@@ -43177,7 +43256,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 58.0, 111.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 178.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 531.5, 194.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -43308,7 +43387,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 468.0, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 193.5, 297.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 193.5, 535.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number[1]"
 								}
@@ -43325,7 +43404,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 355.5, 300.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 193.5, 237.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 193.5, 475.0, 50.0, 22.0 ],
 									"style" : "",
 									"varname" : "number"
 								}
@@ -43386,6 +43465,125 @@
 									"style" : "",
 									"text" : "pattr minhr",
 									"varname" : "minhr"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-64",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1022.0, 575.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 24.0, 448.0, 232.0, 134.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-65",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1037.0, 590.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 269.5, 448.0, 492.0, 134.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-69",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1353.0, 617.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 385.0, 50.0, 126.5, 102.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-68",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1052.0, 605.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 216.0, 50.0, 156.0, 102.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-66",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1037.0, 590.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 24.0, 50.0, 183.0, 102.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-70",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1052.0, 605.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 24.0, 160.0, 544.5, 98.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"id" : "obj-71",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1067.0, 620.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 24.0, 270.0, 544.5, 163.0 ],
+									"proportion" : 0.39,
+									"style" : ""
 								}
 
 							}
@@ -47087,14 +47285,14 @@
 																					"fontname" : "Arial",
 																					"fontsize" : 12.0,
 																					"id" : "obj-17",
-																					"linecount" : 8,
+																					"linecount" : 7,
 																					"maxclass" : "message",
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 472.0, 200.0, 18.0, 32.0 ],
 																					"style" : "",
-																					"text" : "0.520111"
+																					"text" : "0.51511"
 																				}
 
 																			}
