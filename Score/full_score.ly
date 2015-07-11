@@ -89,7 +89,7 @@
       \override MultiMeasureRest.expand-limit = #2
       \override Staff.Clef #'stencil = ##f
       
-      R2.*4 \bar "|."
+      R2.*3 \bar "|."
     }
   }
 }
@@ -149,7 +149,7 @@
       \override MultiMeasureRest.expand-limit = #2
       \override Staff.Clef #'stencil = ##f
       
-      R2.*13 \bar "|."
+      R2.*12 \bar "|."
     }
   }
   

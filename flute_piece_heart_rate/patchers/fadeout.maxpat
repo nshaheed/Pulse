@@ -182,9 +182,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 402.0, 48.0, 22.0 ],
+					"patching_rect" : [ 219.0, 402.0, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "-70. 10"
+					"text" : "-70. 11"
 				}
 
 			}
