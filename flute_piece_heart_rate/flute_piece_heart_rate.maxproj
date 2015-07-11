@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3519202096,
+	"modificationdate" : 3519401868,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -190,6 +190,11 @@
 				"local" : 1
 			}
 ,
+			"fadeout.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"adjPitchshift.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -203,16 +208,6 @@
 			"counterMvmtParserTest.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
-			}
-,
-			"fadeout.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/patchers",
-					"projectrelativepath" : "./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/./patchers/."
-				}
-
 			}
 
 		}
