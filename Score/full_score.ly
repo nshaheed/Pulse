@@ -8,7 +8,7 @@
 % TODO: Do flutter notes properly (have explaination at beginning)
 
 % Paper Size
-#(set! paper-alist (cons '("my size" . (cons (* 10 in) (* 13 in))) paper-alist))
+%#(set! paper-alist (cons '("my size" . (cons (* 10 in) (* 13 in))) paper-alist))
 
 % #(set-global-staff-size 22.45)
 

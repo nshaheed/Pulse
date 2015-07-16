@@ -14,6 +14,7 @@
 
 %% Suppress page numbering 
 \usepackage{nopageno}
+%%%%%%%%%%%%
 
 % \begin{document} 
 % \author{Nicholas Shaheed} 
@@ -161,16 +162,78 @@
 
 \subsection{Notation}
 
-\subsubsection{Tempo}
+The tempo of all three movements of \textit{Pulse} are determined by the
+performer's heart rate, where the BPM of the heart beat determines the
+BPM of the quarter note. As the performer's pulse rises and falls, so
+does the tempo of the music.  The constantly shifting tempo in this music
+requires careful attention from the performer, as movements \textit{i} and \textit{ii}
+contain elements in the electronics that are tightly synced to specific
+measures and beats. 
+
+The heart beat is measured using a heart rate
+monitor (see Hardware).
+
+\begin{tabular}{ l p{5cm} }
+
+\begin{lilypond}[fragment]
+	\once \override Score.BarLine.break-visibility = ##(#f #t #t)
+	\once \override Score.TimeSignature.break-visibility = ##(#f #t #t)
+	{\new Staff << {c''2:32} {s8 \hideNotes a a a \unHideNotes} >>}
+\end{lilypond}
+
+&
+
+testestes fkdl fjd fjkld fjkdla; fjekla; jfeo pafj ioeajipbneia iepahieopnai opeaiopjkdlsajieopa ewagewa  jvieowpa eioafwp
+
+\\
+
+\begin{lilypond}[]
+	\include "vibrato.ly"
+	vib = \vibrato #'(0.5 2.5) #1
+
+	% \vib d''2\startTrillSpan d'16\stopTrillSpan
+	{\new Staff
+	      \vib <<  {d''2}
+	      	    {s8\startTrillSpan \hideNotes a a a \stopTrillSpan \unHideNotes
+		   } >>
+	}
+\end{lilypond}
+
+&
+
+jiofeaieanobeiegh gaioega   jfkdsla ;jfkeowa pjeiowpagwa
+
+\\
+
+\begin{lilypond}[]
+	aqfOOrig = \markup {
+		\rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
+		\woodwind-diagram #'flute #'((cc . (one two three five))
+		(lh . (b gis ))
+		(rh . (dis ees)))    
+		    }
+		}
+
+	{\new Staff
+	      << {aeh''2_\aqfOOrig}
+	      {s8 \hideNotes a a a } >>
+	      
+      	      % aeh''2\markup{"test"}
+	}
+\end{lilypond}
+
+&
+
+fdjkajejioag oeapojigewoap
+
+\end{tabular}
 
 % Tempo for all 3 mvmts det. by heart rate of perf
 % 	Measured via the heart rate monitor (see hardware section)
 % 	Heart beat tempo mapped to quarter note
 % Constantly changing tempo
 % 	Follow closely
-%	
-The tempo for all three movements is determined by the heart rate
-of the performer.  
+%	Can use click track (if you have 4 outputs) or pay attention to heart beat (can be difficult in busier sections)
 
 % heart rate of the performer. This is measured via the heart rate
 % monitor.  The tempo is most easily determined during performance

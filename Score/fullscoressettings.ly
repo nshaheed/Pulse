@@ -1,0 +1,1 @@
+#(set! paper-alist (cons '("my size" . (cons (* 10 in) (* 13 in))) paper-alist))
