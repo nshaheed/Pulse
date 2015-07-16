@@ -3,9 +3,13 @@
 \usepackage[papersize={10in,13in}, margin=1in]{geometry}
 \usepackage{afterpage}
 \usepackage{graphicx}
+\usepackage{floatrow}
+% \usepackage[rightcaption]{sidecap}
+% \usepackage{wrapfig}
+\usepackage[]{caption}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-
+\floatsetup[figure]{capposition=beside,capbesideposition={top,right},capbesidewidth=2in}
 %% Use lmodern font 
 
 \usepackage[T1]{fontenc} 
@@ -14,153 +18,28 @@
 
 %% Suppress page numbering 
 \usepackage{nopageno}
-%%%%%%%%%%%%
 
-% \begin{document} 
-% \author{Nicholas Shaheed} 
-% \title{\Huge On the Wind-Battered Staircase \\ {\large {for \\ \textbf {Tuba-Euphonium Ensemble and Live Electronics}}}} 
-% \date{2014} 
-% \maketitle 
-
-% \mbox{}
-% \thispagestyle{empty}
-% \newpage
-
-% \mbox{}
-% \thispagestyle{empty}
-% \newpage
-
-% \section* {Performance Notes}
-% \subsection* {Instrumentation}
-% \textit{On the Wind-Battered Staircase} is a piece for four euphonium parts, two tuba parts, and a single performer 
-% to control the electronics via MIDI controller. However, euphonium IV can be performed by tubas for a three euphonium,
-% three tuba configuration. It is preferred to have 2-3 performers on each tuba/euphonium part.
-
-% \subsection* {Electronics}
-% \subsubsection* {Equipment}
-% The equipment required for \textit{Staircase} are a quadrophonic (or stereo) speaker setup, a computer, and a midi
-% controller (preferably a keyboard or a Korg nanoPAD2) capable of being connected to the computer.  Optionally, 
-% microphones may also be used to feed the ensemble playing through to the speakers in order to allow for a better
-% blend between the ensemble and the electronics.  
-
-% \subsubsection* {Software}
-% The electronics can be found in the accompanying Max patch, all digital sounds will be controlled from there.
-
-% \paragraph* {Using the Max Patch}
-% After opening the program, to start the audio click on the box marked \textit{Audio On/Off}.  An \textit{X}
-% will appear in the box if the audio is on.
-
-% In order to configure the inputs and outputs of the program, double click on the box labled 
-% \textit{dac\~{} 1 2 3 4} and click on the \textit{I/O Mappings} button.  The opened window allows
-% you to map the internal channels to external channels.  In order to downmix the output to stereo, 
-% set output channels 3 and 4 to the same outputs as 1 and 2, respectively.  
-
-% To select the MIDI input device you will be using, double click on the box labled \textit{notein.}
-
-% \textit{p quad\_calibration} is a tool that allows you to check and adjust the levels of your speakers,
-% double click on the box to open it.  Here, each individual channel's levels can be tested.  
-
-% When opening the program, the patch is configured to start at the beginning.  However, the electronics can
-% be moved to any rehearsal mark using the drop down menu labled as such.
-
-% \paragraph* {Reading the Score}
-% Controlling the electronics is configured two ways: for a keyboard style controller and for the Korg nanoPAD2.
-% To select a configuration, use the \textit{Control Selection} drop-down menu.
-
-% \subparagraph* {Keyboard}
-% To read the keyboard bindings, simply read the notes on the electronics part as if they were in treble clef. 
-
-% \subparagraph* {Korg nanoPAD2}		
-% The bindings for the nanoPAD2 are shown below, where the coordinates are the button's distance from the
-% top, left corner.  For example, (1,2) would be the second button from the left in the top row.  
-
-% \begin[quote,fragment,staffsize=16]{lilypond}
-
-% \relative c' {
-%   \clef "percussion"
-%   \once \override Staff.TimeSignature #'stencil = ##f 
-%   \time 6/4
-%   \hide Stem
-%   d, e f g a b c d e f g a	
-% }
-% \addlyrics{ "(2,1)" "(1,1)" "(2,2)" "(1,2)" "(2,3)" "(1,3)" "(2,4)" "(1,4)" "(2,5)" "(1,5)" "(2,6)" "(1,6)"  }
-% \end{lilypond}
-
-% \subsection* {Graphic Notation}
-% The graphic notation present in the electronic part is a visual descriptor of what is occuring in the electronics
-% at that point in the score.    
-
-% \hspace*{0.65cm}
-% \includegraphics{crosshatch}
-
-% The crosshatching pattern indicates the presence of the noise soundscape - a collection of sounds that randomly
-% glissando between pitches in the set used in the piece, with the range of pitches available changing throughout
-% the piece.  The height of the pattern indicates the range of pitches currently being used, and the vertical 
-% positioning of the pattern indicates the register of the pitches.
-
-
-% \begin[quote,fragment,staffsize=16]{lilypond}
-% 	\relative c' {
-% 		\override Glissando.breakable = ##t
-% 		\clef "percussion"
-% 		\once \override Staff.TimeSignature #'stencil = ##f
-		
-% 		<<
-% 		\new Voice
-% 		{
-% 		\override Glissando.style = #'zigzag
-% 		\hide Stem
-% 		g4\glissando \override NoteColumn.glissando-skip = ##t 
-% 		s4 s2 | \revert NoteColumn.glissando-skip \once \hideNotes g4 }
-		
-% 		\new Voice
-% 		{
-% 		\override Glissando.style = #'zigzag
-% 		\hide Stem
-% 		s4 b4\glissando \override NoteColumn.glissando-skip = ##t 
-% 		s2 | \revert NoteColumn.glissando-skip \once \hideNotes b4 }
-% 		>>
-	
-% 	}
- 
-% \end{lilypond}
-	
-% The zigzags indicate the presence of a ``frozen'' fragment of audio at that point in time.  The lower
-% note is a tuba sample and the upper note is a mix of a euphoium and a dulcimer. 
-
-% \begin[quote,fragment,staffsize=16]{lilypond}
-% 	\relative c' {
-% 		\override Glissando.breakable = ##t
-% 		\override Glissando.after-line-breaking = ##t
-% 		\override Glissando.style = #'zigzag
-% 		\override Glissando.X-extent = #'(50 . 50)
-% 		\override Glissando.zigzag-length = #'.6
-% 		\override Glissando.zigzag-width  = #'5
-% 		\once \override Staff.TimeSignature #'stencil = ##f
-% 		\hide NoteHead
-% 		\hide Stem
-% 		\clef "percussion"
-		
-% 		e1\glissando \override NoteColumn.glissando-skip = ##t  s1 
-% 		\revert NoteColumn.glissando-skip \once \hideNotes e1
-	
-% 	}
- 
-% \end{lilypond}
-
-% The large zigzag indicates the presence of the collection of swooping frozen mix samples.
-
-% \hspace*{0.65cm}
-
-% \includegraphics{arrow}
-
-% The arrow indicates the direction of the pitch-shift used on the mixed sample.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 \section{TBD}
 
-\subsection{Notation}
+\subsection{Tempo \& Notation}
+\subsubsection{Tempo}
+
+\begin{figure}[h]
+\begin{lilypond}[]
+    {\new Staff
+        \tempo \markup {
+    	       \note-by-number #2 #0 #UP
+	       "= Heart Beat"
+	       }
+	       
+    	  d''2
+    }
+\end{lilypond}
+\end{figure}
 
 The tempo of all three movements of \textit{Pulse} are determined by the
 performer's heart rate, where the BPM of the heart beat determines the
@@ -173,20 +52,19 @@ measures and beats.
 The heart beat is measured using a heart rate
 monitor (see Hardware).
 
-\begin{tabular}{ l p{5cm} }
-
+\subsubsection{Notation}
+\begin{figure}[h]
+% \centering
 \begin{lilypond}[fragment]
 	\once \override Score.BarLine.break-visibility = ##(#f #t #t)
 	\once \override Score.TimeSignature.break-visibility = ##(#f #t #t)
-	{\new Staff << {c''2:32} {s8 \hideNotes a a a \unHideNotes} >>}
+	{\new Staff << {d''2:32} {s8 \hideNotes a a a \unHideNotes} >>}
 \end{lilypond}
+\caption*{The tremolo indicates flutter tonguing.}
+\end{figure}
 
-&
 
-testestes fkdl fjd fjkld fjkdla; fjekla; jfeo pafj ioeajipbneia iepahieopnai opeaiopjkdlsajieopa ewagewa  jvieowpa eioafwp
-
-\\
-
+\begin{figure}[h]
 \begin{lilypond}[]
 	\include "vibrato.ly"
 	vib = \vibrato #'(0.5 2.5) #1
@@ -198,13 +76,10 @@ testestes fkdl fjd fjkld fjkdla; fjekla; jfeo pafj ioeajipbneia iepahieopnai ope
 		   } >>
 	}
 \end{lilypond}
+\caption*{This figure is used to indicate the increasing intensity of vibrato }
+\end{figure}
 
-&
-
-jiofeaieanobeiegh gaioega   jfkdsla ;jfkeowa pjeiowpagwa
-
-\\
-
+\begin{figure}[H]
 \begin{lilypond}[]
 	aqfOOrig = \markup {
 		\rounded-box \pad-to-box #'(0 . 1.5) #'(-1.5 . 5) \override #'(size . .6) {
@@ -221,26 +96,8 @@ jiofeaieanobeiegh gaioega   jfkdsla ;jfkeowa pjeiowpagwa
       	      % aeh''2\markup{"test"}
 	}
 \end{lilypond}
-
-&
-
-fdjkajejioag oeapojigewoap
-
-\end{tabular}
-
-% Tempo for all 3 mvmts det. by heart rate of perf
-% 	Measured via the heart rate monitor (see hardware section)
-% 	Heart beat tempo mapped to quarter note
-% Constantly changing tempo
-% 	Follow closely
-%	Can use click track (if you have 4 outputs) or pay attention to heart beat (can be difficult in busier sections)
-
-% heart rate of the performer. This is measured via the heart rate
-% monitor.  The tempo is most easily determined during performance
-% by either listening to 
-
-% TODO
-% talk about where to see info on the heart rate
-%
+\caption*{Fingering diagrams are given when certain notes, effects, intonation,
+or polyphonics are to be played.}
+\end{figure}
 
 \end{document}
