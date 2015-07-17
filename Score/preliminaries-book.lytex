@@ -24,6 +24,24 @@
 \begin{document}
 
 \section{TBD}
+\subsection{About \textit{Pulse}}
+
+The archetypical work of electronic music involving a live, acoustic instrument
+consists of prerecorded audio that the performer then plays to.  This approach
+is, by necessity, static.  The electronics are unchanging and, as a result,
+are missing the characteristics that make a live performance live.
+\textit{Pulse} seeks to add an element of dynamicism to the electronics that
+is derived from the performer's physiological reaction to the performance at hand,
+through the measurement of the performer's heart rate.
+
+The tempo and a majority of the effects in the piece are somehow shaped by the
+players heart rate.  Some effects (such as the tempo) simply read the present heart
+rate, while others are effected by the what the performer's heart rate has been.
+The heart rate is then the driver of the intensity, frequency, pitch, tempo, and texture
+of the electronics.
+
+Between the movements of \textit{Pulse}, there are short interludes where the performer
+does not play.  These serve as transitions between the movements.
 
 \subsection{Tempo \& Notation}
 \subsubsection{Tempo}
