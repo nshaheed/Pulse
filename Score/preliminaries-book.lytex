@@ -4,17 +4,25 @@
 \usepackage{afterpage}
 \usepackage{graphicx}
 \usepackage{floatrow}
+\usepackage{fontspec}
+\usepackage{anyfontsize}
 % \usepackage[rightcaption]{sidecap}
 % \usepackage{wrapfig}
 \usepackage[]{caption}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-\floatsetup[figure]{capposition=beside,capbesideposition={top,right},capbesidewidth=2in}
+\floatsetup[figure]{capposition=beside,capbesideposition={top,right},capbesidewidth=1.8in}
 %% Use lmodern font 
 
-\usepackage[T1]{fontenc} 
-\usepackage{lmodern} 
-\renewcommand*\familydefault{\sfdefault} 
+% \usepackage[T1]{fontenc} 
+% \usepackage{lmodern} 
+% \renewcommand*\familydefault{\sfdefault} 
+
+%% Set font
+\setmainfont{DejaVu Sans ExtraLight}
+
+%% Change itemize bullets to dashes
+\def\labelitemi{\textemdash}
 
 %% Suppress page numbering 
 \usepackage{nopageno}
@@ -23,8 +31,8 @@
 
 \begin{document}
 
-\section{TBD}
-\subsection{About \textit{Pulse}}
+\section*{Preface and Information}
+\subsection*{About \textit{Pulse}}
 
 The archetypical work of electronic music involving a live, acoustic instrument
 consists of prerecorded audio that the performer then plays to.  This approach
@@ -43,8 +51,8 @@ of the electronics.
 Between the movements of \textit{Pulse}, there are short interludes where the performer
 does not play.  These serve as transitions between the movements.
 
-\subsection{Tempo \& Notation}
-\subsubsection{Tempo}
+\subsection*{Tempo \& Notation}
+\subsubsection*{Tempo}
 
 \begin{figure}[h]
 \begin{lilypond}[]
@@ -70,25 +78,25 @@ measures and beats.
 The heart beat is measured using a heart rate
 monitor (see Hardware).
 
-\subsubsection{Notation}
-\begin{figure}[h]
-% \centering
-\begin{lilypond}[fragment]
-	\once \override Score.BarLine.break-visibility = ##(#f #t #t)
-	\once \override Score.TimeSignature.break-visibility = ##(#f #t #t)
-	{\new Staff << {d''2:32} {s8 \hideNotes a a a \unHideNotes} >>}
+\subsubsection*{Notation}
+\begin{figure}[H]
+\begin{lilypond}[]
+	{\new Staff
+	        \override Staff.TimeSignature.stencil = ##f
+		<< {d''2:32} {s8 \hideNotes a a a \unHideNotes} >>
+	}
 \end{lilypond}
 \caption*{The tremolo indicates flutter tonguing.}
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{lilypond}[]
 	\include "vibrato.ly"
 	vib = \vibrato #'(0.5 2.5) #1
-
-	% \vib d''2\startTrillSpan d'16\stopTrillSpan
+  
 	{\new Staff
+	      \override Staff.TimeSignature.stencil = ##f
 	      \vib <<  {d''2}
 	      	    {s8\startTrillSpan \hideNotes a a a \stopTrillSpan \unHideNotes
 		   } >>
@@ -108,14 +116,66 @@ monitor (see Hardware).
 		}
 
 	{\new Staff
+	      \override Staff.TimeSignature.stencil = ##f
 	      << {aeh''2_\aqfOOrig}
 	      {s8 \hideNotes a a a } >>
-	      
-      	      % aeh''2\markup{"test"}
 	}
 \end{lilypond}
 \caption*{Fingering diagrams are given when certain notes, effects, intonation,
 or polyphonics are to be played.}
 \end{figure}
+
+\subsection*{Hardware}
+The following pieces of equipment are needed:
+
+\begin{itemize}
+\item Stereo PA system
+\item A computer
+      \begin{enumerate}
+	\item{That can run Max/MSP 7}
+	\item{That has at least 1 USB port}
+      \end{enumerate}
+\item Polar T31 Heart Rate Monitor (contact composer to get)
+\item Polar Heart Rate Monitor Interface (contact composer)
+\item An audio interface with...
+      \begin{enumerate}
+	\item{2 outputs (required)}
+	\item{Or one with 4 outputs (recommended)}
+      \end{enumerate}
+\item{Headphones (recommended)}
+\item{A mixer (recommended if performing with two people, see Recommendations)}
+\end{itemize}
+
+\subsection*{Using the Electronics}
+The electronics consist of a Max/MSP 7 patch.  Contact the composer for downloading
+and operating instructions.  When the patch is up and running, hit the "Help" button
+to open the help file for the electronics.
+
+\subsection*{Using the Heart Rate Monitor}
+To attach the Polar T31 Heart Rate Monitor:
+\begin{enumerate}
+\item{Fasten one end of the heart rate sensor to the elastic strap.}
+\item{Moisten the two grooved areas on the back.}
+\item{Clip the heart rate sensor around your chest and adjust the strap to fit snugly.}
+\item{Check that the wet grooved areas are firmly against your skin, and that the
+text on the heart rate sensor is in an upright position and at the center of
+your chest.}
+\end{enumerate}
+Taken from polar.com, see site for additional illustrations.
+
+Additionally, it is recommended that a heart rate monitor electrode cream be used to
+ensure a more consistent connection between the skin and the sensor (Buh-Bump cream
+for example).
+
+\subsection*{Recommendations}
+It is recommended that a second performer control the levels of the electronics
+via a mixer.  This will allow for more fine grained control of the dynamics in
+the electronics.
+
+A click track is provided for the performer (and because of the constantly changing
+tempo, it is highly recommended that it be used).  The click track outputs to channels
+3 and 4, which the headphones should be plugged into.
+% * second person controlling levels at mixer
+% * use the headphones in the 3 & 4 inputs to use the click track
 
 \end{document}
