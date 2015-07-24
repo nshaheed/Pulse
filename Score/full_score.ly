@@ -67,7 +67,7 @@
     \new Staff \with { \consists "Page_turn_engraver"}{
       \set Staff.minimumPageTurnLength = #(ly:make-moment 1/32)
       
-      \override Score.BarNumber.break-visibility = ##(#t #t #t)
+      \override Score.BarNumber.break-visibility = ##(#f #t #t)
       \set Score.currentBarNumber = #1
     
       \fluteOne 
@@ -109,13 +109,14 @@
   
   \score {
     \header { piece = \markup {
+      \vspace #2
       \override #'(font-name . "DejaVu Sans Book")
       "Movement II" 
     }
   }
      \new Staff {%\with { \consists "Page_turn_engraver"}{
                  
-       \override Score.BarNumber.break-visibility = ##(#t #t #t)
+       \override Score.BarNumber.break-visibility = ##(#f #t #t)
        \set Score.currentBarNumber = #1
        
        \fluteTwo
@@ -139,6 +140,7 @@
   \score {
     \header { 
       piece = \markup {
+	\vspace #4
         \override #'(font-name . "DejaVu Sans Book") 
         "Interlude" 
       }

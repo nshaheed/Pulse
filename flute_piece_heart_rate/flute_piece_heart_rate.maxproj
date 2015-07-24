@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3519401868,
+	"modificationdate" : 3520241598,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -309,6 +309,11 @@
 			}
 ,
 			"counterValues.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"help.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

@@ -1,0 +1,60 @@
+------- Introduction -------
+
+As you are probably able to figure out, this is the help file for the
+piece Pulse for solo Flute, Computer, and Heart Rate Monitor.  This
+file describes how to set up and operate the hardware and software of
+the piece.
+
+------- Getting Started -------
+
+The patch is divided into two sections: the measure/movement display
+section on the left, and the commands/information section on the right.
+
+The measure/movement display is instended to display the current measure
+and movement (including interludes) so that they can be read for a
+distance - in case the performer isn't able to have the laptop close
+to them.
+
+The commands/information section is where all the settings, levels,
+and control interfaces are.  They are described in detail below.
+
+
+======= MEASURE/MOVEMENT SECTION =======
+
+------- Measure Display -------
+
+Displays the current measure.
+
+------- Movement Display -------
+
+Displays the current movement (including interludes).
+
+
+======= COMMANDS/INFORMATION SECTION  ======= 
+
+------- Select Movement -------
+
+Use the 1, 2, & 3 buttons below "Select Movement" to automatically
+switch to the desired movement.
+
+------- Start! -------
+
+
+------- Stop! -------
+------- Select Measure -------
+------- Automatically Switch Movements -------
+------- Heart Rate Display -------
+------- Click Track Volume -------
+------- Select Port -------
+------- Calibrate Max/Min Heart Rate -------
+------- Open Audio Settings -------
+------- Start Practice Mode -------
+------- Set Practice Mode Tempo -------
+
+======= MISCELLANEOUS  ======= 
+
+------- Needed Hardware -------
+------- Connecting Heart Rate Monitor -------
+------- Display -------
+------- Setting Up Audio -------
+------- Contact -------
