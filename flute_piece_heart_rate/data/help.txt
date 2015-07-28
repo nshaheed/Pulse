@@ -2,6 +2,36 @@
 ======= PULSE HELP  =======
 ===========================
 
+TABLE OF CONTENTS
+ -Introduction-
+ -Getting Started-
+ -Quick Setup-
+ -Recommendations-
+
+MEASURE/MOVEMENT SELECTION
+ -Measure Display-
+ -Movement Display-
+
+COMMANDS/INFORMATION SECTION
+ -Select Movement-
+ -Start!-
+ -Stop!-
+ -Select Measure-
+ -Automatically Switch Movements-
+ -Heart Rate Display-
+ -Click Track Volume
+ -Select Port-
+ -Calibrate Max/Min Heart Rate-
+ -Open Audio Settings-
+ -Start Practice Mode-
+ -Set Practice Mode Tempo-
+
+MISCELLANEOUS
+ -Needed Hardware and Software-
+ -Wearing/Connecting Heart Rate Monitor and Interface-
+ -Setting Up Audio-
+ -Contact-
+
 ------- Introduction -------
 
 As you are probably able to figure out, this is the help file for the
@@ -14,10 +44,9 @@ the piece.
 The patch is divided into two sections: the measure/movement display
 section on the left, and the commands/information section on the right.
 
-The measure/movement display is instended to display the current measure
-and movement (including interludes) so that they can be read for a
-distance - in case the performer isn't able to have the laptop close
-to them.
+The measure/movement displays the current measure and movement (including interludes)
+so that they can be read for a distance - in case the performer isn't
+able to have the laptop close to them.
 
 The commands/information section is where all the settings, levels,
 and control interfaces are.  They are described in detail below.
@@ -29,7 +58,7 @@ When using the Polar Heart Rate Monitor:
 1. Set up PA system/audio interface/etc.
 2. Put on heart rate monitor/plug in heart rate monitor interface (see
        Connecting/Wearing Heart Rate Monitor and Interface). 
-3. Open max patch (pulse.maxpat)
+3. Open Max patch (pulse.maxpat)
 4. Click "Select Port"
 5. Select the proper port from menu (see Select Port)
 6. Hit Start!
@@ -44,6 +73,7 @@ When using practice mode:
 5. To stop, hit Stop!
 
 ------- Recommendations -------
+
 It is recommended that a second performer control the levels of the
 electronics via a mixer. This will allow for more fine grained control
 of the dynamics in the electronics.
@@ -54,7 +84,7 @@ track outputs to channels 3 and 4, which the headphones should be plugged into.
 
 When using the heart rate monitor, it is recommended that a heart rate
 monitor electrode cream be used to ensure a more consistent connection
-between the skin and the sensor (Buh-Bump cream for example).
+between the skin and the sensor (Buh-Bump is one brand of cream).
 
 ======= MEASURE/MOVEMENT SECTION =======
 
@@ -71,7 +101,7 @@ Displays the current movement (including interludes).
 
 ------- Select Movement -------
 
-Use the 1, 2, & 3 buttons below "Select Movement" to automatically
+Use the 1, 2 & 3 buttons below "Select Movement" to automatically
 switch to the desired movement.
 
 ------- Start! -------
@@ -82,23 +112,23 @@ measure 1 of movement 1.
 
 ------- Stop! -------
 
-Stops the audio, unforunately, in the current state of the patch, pushing
+Stops the audio, unfortunately, in the current state of the patch, pushing
 Stop! will stop the audio, but the measure count will continue to increase.
 Therefore, Stop! should be thought of as a hard stop, and not a pause
 button.
 
 ------- Select Measure -------
 
-To move to a specific measure in the piece, use the number box to the right
+To move to a specific measure in the current movement, use the number box to the right
 to select a measure to move to, and then hit the button to the right of Set.
 This will move the electronics to that measure in the current movement.
 
 ------- Automatically Switch Movements -------
 
-Select this option if you wish to have the piece automatically move from
-movement to movement (including the interludes).  If it is not selected,
-then you will have to manually switch between movements using the select
-movements buttons.
+Select this option if you wish to have the piece automatically move to
+the next movement at the end of the current one movement to movement
+(including the interludes).  If it is not selected, then you will have to
+manually switch between movements using the Select Movements buttons.
 
 ------- Heart Rate Display -------
 
@@ -117,12 +147,13 @@ is plugged into.
 
 To figure out which port this is, unplug all USB devices, except for the
 Interface, restart the patch, and open the port selection interface.  Only
-the Heart Rate Monitor Interface port should appear.
+the Heart Rate Monitor Interface port should appear. This port name will likely
+be something non-descriptive, like COM3.
 
 ------- Calibrate Max/Min Heart Rate -------
 
 Click "Calibrate Max/Min Heart Rate" to open the heart rate calibration interface.
-This interface is slightly more complicated, and specific instruction is available
+This interface is slightly more complicated. Specific instruction is available
 on the patch itself.  It does two things: give you a tool to figure out your
 maximum and minimum heart rate, and let you manually set the max/min heart rate
 (aka the max/min tempo) of the whole piece, or the individual movements.
@@ -136,10 +167,9 @@ For more information see: https://docs.cycling74.com/max7/vignettes/audio_status
 
 ------- Start Practice Mode -------
 
-A practice mode is also available if the heart rate monitor is not currently
-available.  Simply hit the button to the right of "Start Practice Mode"
-and fake heartbeat will begin driving the electronics - with changing tempo
-and everything.
+A practice mode is also available for playing the piece without the heart
+rate monitor.  Simply hit the button to the right of "Start Practice Mode"
+and a fake heartbeat will begin driving the electronics.
 
 You can also set the practice mode tempo with the number box below.
 
@@ -148,7 +178,7 @@ If you want to switch back to reading the actual heart beat, hit Start!.
 ------- Set Practice Mode Tempo -------
 
 To set the tempo in practice mode, simply click on the number box to the
-right of "Set Practice Mode Tempo," type your desire tempo, and hit enter.
+right of "Set Practice Mode Tempo," type your desired tempo, and hit enter.
 
 ======= MISCELLANEOUS  ======= 
 
@@ -177,9 +207,9 @@ Software:
  - Max 7
    - A free version that runs the software, but does not allow editing
         can be found here: https://cycling74.com/downloads/runtime/
-   - Appropriate audio drivers for your system.
+ - Appropriate audio drivers for your system.
 
-------- Connecting/Wearing Heart Rate Monitor and Interface -------
+------- Wearing/Connecting Heart Rate Monitor and Interface -------
 
 Note: The Polar T31 Heart Rate Monitor is the belt that you strap to you chest,
 the Polar Heart Rate Monitor Interface is the square board that you plug into
@@ -200,7 +230,7 @@ To attach the Polar T31 Heart Rate Monitor to your person:
    Taken from www.polar.com, see site for additional illustrations.
 
 For optimal data transmission between the monitor and the interface, the two
-objects should not be further than 80cm apart.
+objects should not be further than 80cm (2' 6.5") apart.
 
 ------- Setting Up Audio -------
 
