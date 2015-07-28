@@ -34,19 +34,28 @@
 \section*{Preface and Information}
 \subsection*{About \textit{Pulse}}
 
-The archetypical work of electronic music involving a live, acoustic instrument
-consists of prerecorded audio that the performer then plays to.  This approach
-is, by necessity, static.  The electronics are unchanging and, as a result,
-are missing the characteristics that make a live performance live.
-\textit{Pulse} seeks to add an element of dynamicism to the electronics that
-is derived from the performer's physiological reaction to the performance at hand,
-through the measurement of the performer's heart rate.
+With electronic music that involves live performers, it is typical
+for the electronics to consist mostly or entirely of prerecorded
+audio, and for the performer to play to that recording.
+This approach is, by necessity, a static one.  Due to the unchanging
+nature of a recording, the music loses a key feature of
+performance that is so important to live music.
+\textit{Pulse} seeks to add back a level of dynamicism to the performance
+of the electronics.
+To achieve this, the electronics are controlled by the performer's
+physiological reaction to the performance by measuring their heart rate
+in real time.
 
 The tempo and a majority of the effects in the piece are somehow shaped by the
-players heart rate.  Some effects (such as the tempo) simply read the present heart
-rate, while others are effected by the what the performer's heart rate has been.
-The heart rate is then the driver of the intensity, frequency, pitch, tempo, and texture
-of the electronics.
+player's heart rate.  Some effects (such as the tempo) simply read the present heart
+rate, while others are effected by the what the performer's heart rate has been
+(by calculating averages, peaks, valleys, etc.).
+Through this, the heart rate becomes the driver of the intensity, frequency, pitch,
+tempo, and texture of the electronics.  It become a dynamic, ever
+changing performer that is intimately linked to the flutist.
+
+
+\subsection*{Interludes}
 
 Between the movements of \textit{Pulse}, there are short interludes where the performer
 does not play.  These serve as transitions between the movements.
@@ -70,7 +79,7 @@ does not play.  These serve as transitions between the movements.
 The tempo of all three movements of \textit{Pulse} are determined by the
 performer's heart rate, where the BPM of the heart beat determines the
 BPM of the quarter note. As the performer's pulse rises and falls, so
-does the tempo of the music.  The constantly shifting tempo in this music
+does the tempo of the music.  This constantly shifting tempo
 requires careful attention from the performer, as movements \textit{i} and \textit{ii}
 contain elements in the electronics that are tightly synced to specific
 measures and beats. 
@@ -102,7 +111,7 @@ monitor (see Hardware).
 		   } >>
 	}
 \end{lilypond}
-\caption*{This figure is used to indicate the increasing intensity of vibrato }
+\caption*{This figure is used to indicate increasing intensity of vibrato }
 \end{figure}
 
 \begin{figure}[H]
@@ -121,8 +130,8 @@ monitor (see Hardware).
 	      {s8 \hideNotes a a a } >>
 	}
 \end{lilypond}
-\caption*{Fingering diagrams are given when certain notes, effects, intonation,
-or polyphonics are to be played.}
+\caption*{Fingering diagrams are given when non-standard notes, effects, intonation,
+or polyphonics are to be played. Taken from Robert Dick's \textit{The Other Flute}}
 \end{figure}
 
 \subsection*{Hardware}
@@ -146,6 +155,8 @@ The following pieces of equipment are needed:
 \item{A mixer (recommended if performing with two people, see Recommendations)}
 \end{itemize}
 
+For additional information, open the patch's help file (see Using the Electronics).
+
 \subsection*{Using the Electronics}
 The electronics consist of a Max/MSP 7 patch.  Contact the composer for downloading
 and operating instructions.  When the patch is up and running, hit the "Help" button
@@ -164,8 +175,8 @@ your chest.}
 Taken from polar.com, see site for additional illustrations.
 
 Additionally, it is recommended that a heart rate monitor electrode cream be used to
-ensure a more consistent connection between the skin and the sensor (Buh-Bump cream
-for example).
+ensure a more consistent connection between the skin and the sensor (Buh-Bump is one
+brand of cream).
 
 \subsection*{Recommendations}
 It is recommended that a second performer control the levels of the electronics
