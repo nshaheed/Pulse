@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3520928635,
+	"modificationdate" : 3521104676,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -42,8 +42,7 @@
 ,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"waterdroptest.maxpat" : 			{
@@ -57,7 +56,8 @@
 			}
 ,
 			"waterdropslow2.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"waterdropslow-poly.maxpat" : 			{
@@ -122,42 +122,22 @@
 ,
 			"heart_beat_synthesized.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
-					"projectrelativepath" : ".."
-				}
-
+				"local" : 1
 			}
 ,
 			"serial_test.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
-					"projectrelativepath" : ".."
-				}
-
+				"local" : 1
 			}
 ,
 			"serial_test2.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece",
-					"projectrelativepath" : ".."
-				}
-
+				"local" : 1
 			}
 ,
 			"running-average.help" : 			{
 				"kind" : "helpfile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Classes/MAXMSP/CNMAT-Everything-WIN",
-					"projectrelativepath" : "../../../Documents/Classes/MAXMSP/CNMAT-Everything-WIN"
-				}
-
+				"local" : 1
 			}
 ,
 			"heartbeat_simulator.maxpat" : 			{
@@ -187,7 +167,8 @@
 ,
 			"Pulse.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"fadeout.maxpat" : 			{
@@ -235,32 +216,17 @@
 ,
 			"waterdrop.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Recordings",
-					"projectrelativepath" : "../../../Documents/Recordings"
-				}
-
+				"local" : 1
 			}
 ,
 			"waterdrop2.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
-					"projectrelativepath" : "./media/./media/./media/./media/./media/."
-				}
-
+				"local" : 1
 			}
 ,
 			"Synth_Whoosh.aiff" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "C:/Users/N/Audio stuff/Flute Heart Rate Piece/flute_piece_heart_rate/media",
-					"projectrelativepath" : "./media/./media/./media/./media/./media/."
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -272,7 +238,8 @@
 			}
 ,
 			"running-average.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1
 			}
 
 		}
@@ -322,7 +289,8 @@
 ,
 		"externals" : 		{
 			"serial.mxe64" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 
 		}
