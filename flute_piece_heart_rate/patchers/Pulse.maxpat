@@ -9,10 +9,10 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 85.0, 1456.0, 707.0 ],
+		"rect" : [ 42.0, 85.0, 1456.0, 707.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -78,9 +78,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 331.0, 495.0, 174.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 424, 178 ],
+						"client_rect" : [ 1131, 255, 1485, 384 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"style" : "",
@@ -739,23 +739,6 @@
 					"patching_rect" : [ 70.5, 994.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1068.0, 93.0, 65.0, 35.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"id" : "obj-124",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1192.166687, 959.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2349.666748, 50.0, 139.083313, 58.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -3118,7 +3101,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-34",
@@ -5849,7 +5831,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-19",
@@ -23708,7 +23689,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 84.833313, 218.0, 64.0, 22.0 ],
+									"patching_rect" : [ 82.833313, 218.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -24868,7 +24849,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 26.0, 85.0, 1468.0, 715.0 ],
+										"rect" : [ 42.0, 85.0, 1468.0, 715.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -25164,7 +25145,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 122.833313, 253.0, 64.0, 22.0 ],
+									"patching_rect" : [ 121.833313, 253.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -26448,7 +26429,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 380.0, 192.0, 45.0, 22.0 ],
+													"patching_rect" : [ 379.0, 192.0, 45.0, 22.0 ],
 													"style" : "",
 													"text" : "r reset"
 												}
@@ -29522,7 +29503,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",
@@ -33921,7 +33901,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
@@ -33992,7 +33971,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-39",
@@ -34114,7 +34092,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 26.0, 85.0, 1468.0, 715.0 ],
+														"rect" : [ 42.0, 85.0, 1468.0, 715.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -34141,7 +34119,6 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-6",
@@ -34247,7 +34224,6 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
-																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-6",
@@ -35414,7 +35390,6 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-29",
@@ -35522,7 +35497,6 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
-																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-5",
@@ -35714,7 +35688,6 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
-																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"format" : 6,
@@ -41922,7 +41895,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -43524,7 +43496,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-75",
@@ -44511,9 +44482,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 331.0, 495.0, 207.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 4, 44, 424, 178 ],
+										"client_rect" : [ 1131, 255, 1485, 384 ],
 										"parameter_enable" : 0,
-										"storage_rect" : [ 766, 44, 1220, 302 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"style" : "",
@@ -45296,7 +45267,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -45341,7 +45311,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-9",
@@ -45930,7 +45899,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"format" : 6,
