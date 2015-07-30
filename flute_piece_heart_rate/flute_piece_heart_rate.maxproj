@@ -2,19 +2,14 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3521104676,
+	"modificationdate" : 3521116905,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
-			"2dwavetest.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"deltaTime.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -31,16 +26,6 @@
 			}
 ,
 			"delta_change.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"77_GS_Main.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -100,36 +85,6 @@
 				"local" : 1
 			}
 ,
-			"77_GS_Main_2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"77_GS_Main_3.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"77_GS_Main_4.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"main2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"heart_beat_synthesized.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"serial_test.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"serial_test2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -141,21 +96,6 @@
 			}
 ,
 			"heartbeat_simulator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"subdivisionTest.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mvmt1.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mvmt3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -177,16 +117,6 @@
 			}
 ,
 			"adjPitchshift.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mvmt2stripper.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"counterMvmtParserTest.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -232,12 +162,12 @@
 		}
 ,
 		"code" : 		{
-			"superCounter.js" : 			{
+			"running-average.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"running-average.js" : 			{
+			"superCounter.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -245,11 +175,6 @@
 		}
 ,
 		"data" : 		{
-			"splash preset.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"grooveInfo.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
