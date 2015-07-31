@@ -2876,7 +2876,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-2", 2 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 4
+									"watchpoint_id" : 13
 								}
 
 							}
@@ -4039,7 +4039,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-2", 2 ],
 									"watchpoint_flags" : 2,
-									"watchpoint_id" : 3
+									"watchpoint_id" : 14
 								}
 
 							}
@@ -5238,7 +5238,7 @@
 													"hidden" : 0,
 													"source" : [ "obj-42", 1 ],
 													"watchpoint_flags" : 2,
-													"watchpoint_id" : 9
+													"watchpoint_id" : 15
 												}
 
 											}
@@ -43560,23 +43560,6 @@
 							}
 , 							{
 								"box" : 								{
-									"angle" : 270.0,
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"id" : "obj-67",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1590.0, 186.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 1130.0, -360.0, 232.0, 134.0 ],
-									"proportion" : 0.39,
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-61",
 									"linecount" : 17,
 									"maxclass" : "comment",
@@ -52606,7 +52589,7 @@
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ],
 					"watchpoint_flags" : 2,
-					"watchpoint_id" : 5
+					"watchpoint_id" : 18
 				}
 
 			}
