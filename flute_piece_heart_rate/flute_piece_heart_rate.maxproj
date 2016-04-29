@@ -2,7 +2,7 @@
 	"name" : "flute_piece_heart_rate",
 	"version" : 1,
 	"creationdate" : 3502989081,
-	"modificationdate" : 3521116905,
+	"modificationdate" : 3544777824,
 	"viewrect" : [ 8.0, 31.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -120,6 +120,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"recorder.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -144,12 +149,12 @@
 				"local" : 1
 			}
 ,
-			"waterdrop.wav" : 			{
+			"waterdrop2.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"waterdrop2.wav" : 			{
+			"waterdrop.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -207,14 +212,6 @@
 ,
 			"help.txt" : 			{
 				"kind" : "textfile",
-				"local" : 1
-			}
-
-		}
-,
-		"externals" : 		{
-			"serial.mxe64" : 			{
-				"kind" : "object",
 				"local" : 1
 			}
 
