@@ -38,18 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 786.0, 345.0, 163.0, 22.0 ],
-					"style" : "",
-					"text" : "com serial COM3 9600 8 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -263,11 +251,16 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 232.0, 228.0, 117.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 232.0, 228.0, 91.0, 22.0 ],
+					"restore" : [ "" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
 					"style" : "",
-					"text" : "com pattr portName",
+					"text" : "pattr portName",
 					"varname" : "portName"
 				}
 
@@ -276,11 +269,18 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 410.0, 493.0, 163.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 410.0, 493.0, 137.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 1131, 255, 1605, 384 ],
+						"parameter_enable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
 					"style" : "",
-					"text" : "com pattrstorage portNames",
+					"text" : "pattrstorage portNames",
 					"varname" : "portNames"
 				}
 
@@ -388,10 +388,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 173.0, 65.0, 22.0 ],
+					"outlettype" : [ "int", "" ],
+					"patching_rect" : [ 390.0, 173.0, 39.0, 22.0 ],
 					"style" : "",
-					"text" : "com serial"
+					"text" : "serial"
 				}
 
 			}
@@ -878,7 +878,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 339.5, 328.5, 419.5, 328.5 ],
+					"midpoints" : [ 277.5, 328.5, 419.5, 328.5 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
